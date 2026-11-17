@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:56:00-06:00",
+ "updated": "2026-11-17T16:54:00-06:00",
  "goals": [
   {
    "date": "2026-11-16",
@@ -12,22 +12,15 @@
    "date": "2026-11-16",
    "time": "14:00",
    "cat": "Futbol rápido varonil 2010–2011",
-   "player": "Raul R.",
-   "n": 5
-  },
-  {
-   "date": "2026-11-16",
-   "time": "14:00",
-   "cat": "Futbol rápido varonil 2010–2011",
    "player": "Jonatan Alexis P.",
    "n": 1
   },
   {
    "date": "2026-11-16",
-   "time": "16:20",
-   "cat": "Futbol rápido varonil 2008–2009",
-   "player": "Guillermo E.",
-   "n": 3
+   "time": "14:00",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "player": "Raul R.",
+   "n": 5
   },
   {
    "date": "2026-11-16",
@@ -40,15 +33,15 @@
    "date": "2026-11-16",
    "time": "16:20",
    "cat": "Futbol rápido varonil 2008–2009",
-   "player": "Santiago P.",
-   "n": 2
+   "player": "Emiliano L.",
+   "n": 1
   },
   {
    "date": "2026-11-16",
    "time": "16:20",
    "cat": "Futbol rápido varonil 2008–2009",
-   "player": "Emiliano L.",
-   "n": 1
+   "player": "Guillermo E.",
+   "n": 3
   },
   {
    "date": "2026-11-16",
@@ -68,7 +61,49 @@
    "date": "2026-11-16",
    "time": "16:20",
    "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Santiago P.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-16",
+   "time": "16:20",
+   "cat": "Futbol rápido varonil 2008–2009",
    "player": "Valentino de Jesús I.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-17",
+   "time": "12:50",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "player": "Jonatan Alexis P.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-17",
+   "time": "12:50",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "player": "Raul R.",
+   "n": 5
+  },
+  {
+   "date": "2026-11-17",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Diego T.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-17",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Luis Rodrigo T.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-17",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Santiago P.",
    "n": 1
   }
  ]
