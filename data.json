@@ -1,6 +1,8 @@
 {
- "updated": "2026-11-17T05:11:55-06:00",
- "source": "https://tagers.com/torneo-de-la-amistad-puebla/colegio/cumbres-international-school-cancun/",
+ "updated": "2026-11-17T15:35:45-06:00",
+ "checked": "2026-11-17T15:35:45-06:00",
+ "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
+ "rol_leido": "2026-11-17T21:00:28.329Z",
  "matches": [
   {
    "date": "2026-11-16",
@@ -54,8 +56,8 @@
    "rival": "Cumbres International School Aguascalientes",
    "field": "Cancha 6 FR",
    "venue": "Andes",
-   "gf": null,
-   "ga": null
+   "gf": 6,
+   "ga": 5
   },
   {
    "date": "2026-11-17",
@@ -315,8 +317,14 @@
   {
    "cat": "Futbol 9 femenil 2008",
    "group": "C",
-   "read": "2026-11-17 04:53",
+   "read": "2026-11-17 15:00",
    "rows": [
+    {
+     "team": "Prepa Anáhuac Monterrey campus San Agustín",
+     "pj": 2,
+     "pts": 6,
+     "dg": 9
+    },
     {
      "team": "Cumbres International School Cancún",
      "pj": 2,
@@ -325,34 +333,59 @@
     },
     {
      "team": "Del Bosque International School",
-     "pj": 2,
+     "pj": 3,
      "pts": 3,
-     "dg": 5
-    },
-    {
-     "team": "Prepa Anáhuac Monterrey campus San Agustín",
-     "pj": 1,
-     "pts": 3,
-     "dg": 5
+     "dg": 1
     },
     {
      "team": "Cumbres International School Tijuana",
-     "pj": 1,
-     "pts": 0,
-     "dg": -5
+     "pj": 2,
+     "pts": 3,
+     "dg": -4
     },
     {
      "team": "Cumbres International School Guadalajara",
-     "pj": 2,
+     "pj": 3,
      "pts": 0,
-     "dg": -12
+     "dg": -13
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "group": "C",
+   "read": "2026-11-17 15:00",
+   "rows": [
+    {
+     "team": "Cumbres International School Cancún",
+     "pj": 2,
+     "pts": 6,
+     "dg": 5
+    },
+    {
+     "team": "Cumbres International School Aguascalientes",
+     "pj": 2,
+     "pts": 3,
+     "dg": 6
+    },
+    {
+     "team": "Prepa Anáhuac México campus Cumbres",
+     "pj": 1,
+     "pts": 0,
+     "dg": -4
+    },
+    {
+     "team": "Irish International School Hermosillo",
+     "pj": 1,
+     "pts": 0,
+     "dg": -7
     }
    ]
   },
   {
    "cat": "Futbol rápido varonil 2008–2009",
    "group": "D",
-   "read": "2026-11-16 20:45",
+   "read": "2026-11-17 15:00",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -381,36 +414,177 @@
    ]
   },
   {
-   "cat": "Futbol rápido varonil 2010–2011",
-   "group": "C",
-   "read": "2026-11-16 20:35",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "A",
+   "read": "2026-11-17 15:00",
    "rows": [
     {
-     "team": "Cumbres International School Aguascalientes",
-     "pj": 1,
-     "pts": 3,
-     "dg": 7
+     "team": "Cumbres International School Cancún",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Culiacán",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Mano Amiga Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "F",
+   "read": "2026-11-17 15:00",
+   "rows": [
+    {
+     "team": "Cumbres International School Cancún",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Tuxtla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Bosques",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Mano Amiga Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "A",
+   "read": "2026-11-17 15:00",
+   "rows": [
+    {
+     "team": "Andes International School Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
     },
     {
      "team": "Cumbres International School Cancún",
-     "pj": 1,
-     "pts": 3,
-     "dg": 4
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
     },
     {
-     "team": "Prepa Anáhuac México campus Cumbres",
-     "pj": 1,
+     "team": "Highlands International School Monterrey",
+     "pj": 0,
      "pts": 0,
-     "dg": -4
+     "dg": 0
     },
     {
-     "team": "Irish International School Hermosillo",
-     "pj": 1,
+     "team": "Instituto Cumbres Bosques",
+     "pj": 0,
      "pts": 0,
-     "dg": -7
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Morelia",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "A",
+   "read": "2026-11-17 15:00",
+   "rows": [
+    {
+     "team": "Andes International School Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Cancún",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Campeche",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Irapuato",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Pinecrest International School",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "H",
+   "read": "2026-11-17 15:00",
+   "rows": [
+    {
+     "team": "Colegio Interamericano Guadalajara",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Cancún",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Lomas",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
     }
    ]
   }
- ],
- "checked": "2026-11-17T14:36:00-06:00"
+ ]
 }
