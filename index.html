@@ -281,9 +281,9 @@ function render(){
     </tbody></table></div>${r?`<div class="read">Tabla leída el ${ri.dow} ${ri.n} a las ${rt.hm} ${rt.ap}. Puede tardar en reflejar un partido recién jugado.</div>`:""}</div>`;
   }).join("") : `<div class="empty">Aún no hay tablas publicadas.</div>`;
 
-  const u=new Date(DATA.updated);
+  const u=new Date(DATA.checked||DATA.updated);
   const us=new Intl.DateTimeFormat("es-MX",{timeZone:TZ,weekday:"short",day:"numeric",hour:"numeric",minute:"2-digit"}).format(u);
-  document.getElementById("updated").textContent="Actualizado "+us;
+  document.getElementById("updated").textContent="Revisado "+us;
   document.getElementById("src").innerHTML=`Datos tomados de <a href="${esc(DATA.source)}">tagers.com</a> (no es el sitio oficial del torneo).`;
 }
 
