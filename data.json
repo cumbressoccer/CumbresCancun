@@ -1,0 +1,415 @@
+{
+ "updated": "2026-11-17T05:11:55-06:00",
+ "source": "https://tagers.com/torneo-de-la-amistad-puebla/colegio/cumbres-international-school-cancun/",
+ "matches": [
+  {
+   "date": "2026-11-16",
+   "time": "13:40",
+   "cat": "Futbol 9 femenil 2008",
+   "group": "C",
+   "rival": "Del Bosque International School",
+   "field": "Campo 22",
+   "venue": "Andes",
+   "gf": 2,
+   "ga": 0
+  },
+  {
+   "date": "2026-11-16",
+   "time": "14:00",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "group": "C",
+   "rival": "Prepa Anáhuac México campus Cumbres",
+   "field": "Cancha 6 FR",
+   "venue": "Andes",
+   "gf": 6,
+   "ga": 2
+  },
+  {
+   "date": "2026-11-16",
+   "time": "16:20",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "group": "D",
+   "rival": "Irish Institute México",
+   "field": "Cancha 15 FR",
+   "venue": "Andes",
+   "gf": 11,
+   "ga": 1
+  },
+  {
+   "date": "2026-11-16",
+   "time": "20:20",
+   "cat": "Futbol 9 femenil 2008",
+   "group": "C",
+   "rival": "Cumbres International School Tijuana",
+   "field": "Campo 22",
+   "venue": "Andes",
+   "gf": 5,
+   "ga": 0
+  },
+  {
+   "date": "2026-11-17",
+   "time": "12:50",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "group": "C",
+   "rival": "Cumbres International School Aguascalientes",
+   "field": "Cancha 6 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-17",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "group": "D",
+   "rival": "Prepa Anáhuac Monterrey campus San Agustín",
+   "field": "Cancha 15 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-17",
+   "time": "19:00",
+   "cat": "Futbol 9 femenil 2008",
+   "group": "C",
+   "rival": "Cumbres International School Guadalajara",
+   "field": "Campo 13",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-18",
+   "time": "12:20",
+   "cat": "Futbol 9 femenil 2008",
+   "group": "C",
+   "rival": "Prepa Anáhuac Monterrey campus San Agustín",
+   "field": "Campo 13",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-18",
+   "time": "12:50",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "group": "C",
+   "rival": "Irish International School Hermosillo",
+   "field": "Cancha 6 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-18",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "group": "D",
+   "rival": "Instituto Cumbres Campeche",
+   "field": "Cancha 15 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "07:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "A",
+   "rival": "Highlands International School México",
+   "field": "Cancha 6 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "F",
+   "rival": "Mano Amiga Puebla",
+   "field": "Campo 3",
+   "venue": "Anáhuac",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "A",
+   "rival": "Instituto Cumbres Morelia",
+   "field": "Campo 1",
+   "venue": "Anáhuac",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "12:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "A",
+   "rival": "Instituto Cumbres Irapuato",
+   "field": "Campo 25",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "14:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "A",
+   "rival": "Irish International School Monterrey",
+   "field": "Cancha 15 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "A",
+   "rival": "Instituto Cumbres Bosques",
+   "field": "Campo 26",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "H",
+   "rival": "Highlands International School Monterrey",
+   "field": "Campo 5",
+   "venue": "Anáhuac",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-20",
+   "time": "18:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "A",
+   "rival": "Andes International School Puebla",
+   "field": "Campo 25",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "F",
+   "rival": "Instituto Cumbres Bosques",
+   "field": "Campo 3",
+   "venue": "Anáhuac",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "A",
+   "rival": "Highlands International School Monterrey",
+   "field": "Campo 1",
+   "venue": "Anáhuac",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "A",
+   "rival": "Mano Amiga Puebla",
+   "field": "Cancha 15 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "H",
+   "rival": "Cumbres International School Lomas",
+   "field": "Campo 5",
+   "venue": "Anáhuac",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "A",
+   "rival": "Instituto Cumbres Campeche",
+   "field": "Campo 25",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-22",
+   "time": "11:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "A",
+   "rival": "Instituto Andes Culiacán",
+   "field": "Cancha 15 FR",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-22",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "A",
+   "rival": "Andes International School Puebla",
+   "field": "Campo 10",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-22",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "A",
+   "rival": "Pinecrest International School",
+   "field": "Campo 25",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-22",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "H",
+   "rival": "Colegio Interamericano Guadalajara",
+   "field": "Campo 4",
+   "venue": "Anáhuac",
+   "gf": null,
+   "ga": null
+  },
+  {
+   "date": "2026-11-22",
+   "time": "17:20",
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "F",
+   "rival": "Instituto Andes Tuxtla",
+   "field": "Campo 26",
+   "venue": "Andes",
+   "gf": null,
+   "ga": null
+  }
+ ],
+ "standings": [
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "group": "C",
+   "read": "2026-11-17 04:53",
+   "rows": [
+    {
+     "team": "Cumbres International School Cancún",
+     "pj": 2,
+     "pts": 6,
+     "dg": 7
+    },
+    {
+     "team": "Del Bosque International School",
+     "pj": 2,
+     "pts": 3,
+     "dg": 5
+    },
+    {
+     "team": "Prepa Anáhuac Monterrey campus San Agustín",
+     "pj": 1,
+     "pts": 3,
+     "dg": 5
+    },
+    {
+     "team": "Cumbres International School Tijuana",
+     "pj": 1,
+     "pts": 0,
+     "dg": -5
+    },
+    {
+     "team": "Cumbres International School Guadalajara",
+     "pj": 2,
+     "pts": 0,
+     "dg": -12
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "group": "D",
+   "read": "2026-11-16 20:45",
+   "rows": [
+    {
+     "team": "Cumbres International School Cancún",
+     "pj": 1,
+     "pts": 3,
+     "dg": 10
+    },
+    {
+     "team": "Prepa Anáhuac Monterrey campus San Agustín",
+     "pj": 1,
+     "pts": 3,
+     "dg": 7
+    },
+    {
+     "team": "Instituto Cumbres Campeche",
+     "pj": 1,
+     "pts": 0,
+     "dg": -7
+    },
+    {
+     "team": "Irish Institute México",
+     "pj": 1,
+     "pts": 0,
+     "dg": -10
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "group": "C",
+   "read": "2026-11-16 20:35",
+   "rows": [
+    {
+     "team": "Cumbres International School Aguascalientes",
+     "pj": 1,
+     "pts": 3,
+     "dg": 7
+    },
+    {
+     "team": "Cumbres International School Cancún",
+     "pj": 1,
+     "pts": 3,
+     "dg": 4
+    },
+    {
+     "team": "Prepa Anáhuac México campus Cumbres",
+     "pj": 1,
+     "pts": 0,
+     "dg": -4
+    },
+    {
+     "team": "Irish International School Hermosillo",
+     "pj": 1,
+     "pts": 0,
+     "dg": -7
+    }
+   ]
+  }
+ ]
+}
