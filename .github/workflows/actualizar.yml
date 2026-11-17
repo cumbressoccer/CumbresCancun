@@ -1,0 +1,40 @@
+name: Actualizar partidos de Cumbres Cancún
+
+on:
+  schedule:
+    # Cada 15 minutos, de 7:00 am a 11:59 pm hora de Puebla (13:00–05:59 UTC), del 16 al 25 de noviembre
+    - cron: '*/15 13-23 16-24 11 *'
+    - cron: '*/15 0-5 17-25 11 *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/actualizar.mjs'
+      - '.github/workflows/actualizar.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm init -y >/dev/null && npm i playwright@1.47.2
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/actualizar.mjs
+      - name: Publicar
+        run: |
+          git config user.name "robot-cumbres"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then echo "sin cambios"; exit 0; fi
+          git commit -m "Robot: actualiza partidos y tablas"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
