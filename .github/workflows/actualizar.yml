@@ -2,14 +2,16 @@ name: Actualizar partidos de Cumbres Cancún
 
 on:
   schedule:
-    # Cada 15 minutos, de 7:00 am a 11:59 pm hora de Puebla (13:00–05:59 UTC), del 16 al 25 de noviembre
-    - cron: '*/15 13-23 16-24 11 *'
-    - cron: '*/15 0-5 17-25 11 *'
+    # Cada 30 min, de 7:00 am a 11:59 pm hora de Puebla (13:00–05:59 UTC), del 16 al 25 de noviembre.
+    # Cada corrida revisa Tagers cada 5 minutos durante ~55 minutos, así se cubren los huecos.
+    - cron: '7,37 13-23 16-24 11 *'
+    - cron: '7,37 0-5 17-25 11 *'
   workflow_dispatch:
   push:
     paths:
       - 'scripts/actualizar.mjs'
       - '.github/workflows/actualizar.yml'
+      - 'despertar.txt'
 
 permissions:
   contents: write
@@ -21,7 +23,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 62
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,12 +31,29 @@ jobs:
           node-version: '20'
       - run: npm init -y >/dev/null && npm i playwright@1.47.2
       - run: npx playwright install --with-deps chromium
-      - run: node scripts/actualizar.mjs
-      - name: Publicar
+      - name: Revisar Tagers cada 5 minutos
         run: |
           git config user.name "robot-cumbres"
           git config user.email "actions@users.noreply.github.com"
-          git add data.json
-          if git diff --cached --quiet; then echo "sin cambios"; exit 0; fi
-          git commit -m "Robot: actualiza partidos y tablas"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          fin=$(( $(date +%s) + 55*60 ))
+          ultimo_push=0
+          while :; do
+            git pull -q --rebase origin main || true
+            antes=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings]))" 2>/dev/null || echo "")
+            if node scripts/actualizar.mjs; then
+              despues=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings]))")
+              ahora=$(date +%s)
+              if [ "$antes" != "$despues" ] || [ $(( ahora - ultimo_push )) -ge 1200 ]; then
+                git add data.json
+                if ! git diff --cached --quiet; then
+                  git commit -q -m "Robot: actualiza partidos y tablas"
+                  for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
+                  ultimo_push=$ahora
+                fi
+              else
+                git checkout -- data.json
+              fi
+            fi
+            [ $(( $(date +%s) + 300 )) -ge $fin ] && break
+            sleep 300
+          done
