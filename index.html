@@ -72,6 +72,7 @@ header{background:var(--ink);color:var(--white);padding:20px 0 0}
 .time{font-family:var(--display);font-weight:800;font-size:18px;font-variant-numeric:tabular-nums;line-height:1.1}
 .time small{display:block;font-family:var(--body);font-size:11px;font-weight:500;color:var(--slate)}
 .cat{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;font-weight:600;color:var(--slate)}
+.grp.ko{background:var(--gold);color:var(--ink)}
 .grp{background:var(--mist);color:var(--ink);border-radius:6px;padding:1px 6px;font-size:11px}
 .rival{font-weight:600;font-size:15px;margin-top:2px}
 .rival em{font-style:normal;color:var(--slate);font-weight:500}
@@ -202,6 +203,7 @@ function shortCat(c){
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 function outcome(m){if(m.gf==null||m.ga==null)return null;return m.gf>m.ga?"w":m.gf<m.ga?"l":"d";}
 const LBL={w:"Ganó",d:"Empate",l:"Perdió"};
+function phaseTxt(p){const w=String(p).trim().split(/\s+/),h=w.length/2;const t=(Number.isInteger(h)&&w.slice(0,h).join(" ")===w.slice(h).join(" "))?w.slice(0,h).join(" "):w.join(" ");return t.charAt(0).toUpperCase()+t.slice(1).toLowerCase();}
 const mkey=m=>`${m.date}|${m.time}|${m.cat}`;
 function goalsOf(m){const s=GOLES.goals.filter(g=>mkey(g)===mkey(m)); return s.length?s:(AUTO.goals||[]).filter(g=>mkey(g)===mkey(m));}
 function allMatchGoals(){const keys=new Set(GOLES.goals.map(mkey)); return GOLES.goals.concat((AUTO.goals||[]).filter(g=>!keys.has(mkey(g))));}
@@ -241,7 +243,7 @@ function render(){
   const next = ms.find(m=>!outcome(m) && (m.date+"T"+m.time) > now.stamp);
   const nx=document.getElementById("next");
   if(next){const t=fmt12(next.time), di=dayInfo(next.date);
-    nx.innerHTML=`<p class="k">Próximo partido</p><div class="when">${di.dow} ${di.n} · ${t.hm} ${t.ap}</div><div class="vs">vs ${esc(next.rival)}</div><div class="meta">${esc(shortCat(next.cat))} · Grupo ${esc(next.group)} · ${esc(next.field)}, ${esc(next.venue)}</div>`;
+    nx.innerHTML=`<p class="k">Próximo partido</p><div class="when">${di.dow} ${di.n} · ${t.hm} ${t.ap}</div><div class="vs">vs ${esc(next.rival)}</div><div class="meta">${esc(shortCat(next.cat))} · ${next.phase?esc(phaseTxt(next.phase)):"Grupo "+esc(next.group)} · ${esc(next.field)}, ${esc(next.venue)}</div>`;
   } else nx.innerHTML=`<p class="k">Próximo partido</p><div class="vs">No hay más partidos programados.</div>`;
 
   // Días
@@ -268,7 +270,7 @@ function render(){
     else res=`<span class="pill pend">Por jugar</span>`;
     return `<article class="match${next&&m===next?" is-next":""}">
       <div class="time">${t.hm}<small>${t.ap}${state.day==="all"?` · ${di.dow} ${di.n}`:""}</small></div>
-      <div><div class="cat">${esc(shortCat(m.cat))}<span class="grp">Grupo ${esc(m.group)}</span></div>
+      <div><div class="cat">${esc(shortCat(m.cat))}${m.phase?`<span class="grp ko">${esc(phaseTxt(m.phase))}</span>`:`<span class="grp">Grupo ${esc(m.group)}</span>`}</div>
         <div class="rival"><em>vs</em> ${esc(m.rival)}</div>
         <div class="where">${esc(m.field)} · ${esc(m.venue)}</div>${scorerLine(m)}</div>
       <div class="res">${res}</div></article>`;

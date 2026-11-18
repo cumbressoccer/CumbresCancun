@@ -108,7 +108,10 @@ const matches = mios.map(p => {
     rival: nombre(p, local ? 'b' : 'a'), field: p.l || '', venue: SEDE[p.s] || p.s || '',
     gf, ga
   };
-  if (p.k && p.k !== 'grupos') m.phase = p.j || p.k;
+  if (p.k && p.k !== 'grupos') {
+    const w = String(p.j || p.k).trim().split(/\s+/); const h = w.length / 2;
+    m.phase = (Number.isInteger(h) && w.slice(0, h).join(' ') === w.slice(h).join(' ')) ? w.slice(0, h).join(' ') : w.join(' ');
+  }
   return m;
 }).sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
 
