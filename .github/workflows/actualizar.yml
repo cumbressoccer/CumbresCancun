@@ -12,6 +12,7 @@ on:
       - 'scripts/actualizar.mjs'
       - '.github/workflows/actualizar.yml'
       - 'despertar.txt'
+      - 'scripts/rosters.mjs'
 
 permissions:
   contents: write
@@ -38,9 +39,20 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           fin=$(( $(date +%s) + 55*60 ))
           ultimo_push=0
+          vuelta=0
           while :; do
             git pull -q --rebase origin main || true
             antes=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings]))" 2>/dev/null || echo "")
+            # Rosters de zione cada 15 minutos (una de cada 3 vueltas)
+            if [ $(( vuelta % 3 )) -eq 0 ]; then
+              node scripts/rosters.mjs || echo "rosters: sin cambios por error"
+              git add roster.json 2>/dev/null
+              if ! git diff --cached --quiet; then
+                git commit -q -m "Robot: actualiza rosters"
+                for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
+              fi
+            fi
+            vuelta=$(( vuelta + 1 ))
             if node scripts/actualizar.mjs; then
               despues=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings]))")
               ahora=$(date +%s)

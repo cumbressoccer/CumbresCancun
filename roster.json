@@ -1,0 +1,649 @@
+{
+ "updated": "2026-11-17T21:30:00-06:00",
+ "source": "zione (TDLA 2026)",
+ "teams": [
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "players": [
+    {
+     "name": "Ana Paula H.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Ana Sofia G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Azul G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Daniela R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Isabel L.",
+     "gk": false,
+     "goals": 2,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Isabella G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Mariana S.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Regina P.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Sofia G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Sophie M.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Valentina P.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS431&m=1&e=703195"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "players": [
+    {
+     "name": "Diego T.",
+     "gk": false,
+     "goals": 3,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Emiliano L.",
+     "gk": false,
+     "goals": 1,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Guillermo E.",
+     "gk": false,
+     "goals": 3,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Hugo R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Jorge R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Luis Rodrigo T.",
+     "gk": false,
+     "goals": 2,
+     "yellow": 1,
+     "red": 0
+    },
+    {
+     "name": "Santiago C.",
+     "gk": true,
+     "goals": 1,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Santiago P.",
+     "gk": false,
+     "goals": 3,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Valentino de Jesús I.",
+     "gk": false,
+     "goals": 1,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS433&m=1&e=703339"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "players": [
+    {
+     "name": "Abraham Heriberto R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Alejandro F.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Daniel G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 1,
+     "red": 0
+    },
+    {
+     "name": "Jonatan Alexis P.",
+     "gk": false,
+     "goals": 2,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "José Emiliano D.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Jose Gustavo P.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Juan Pablo M.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Luis Alejandro P.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Mateo P.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Raul R.",
+     "gk": false,
+     "goals": 10,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Ricardo O.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 1,
+     "red": 0
+    },
+    {
+     "name": "Santiago M.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS433&m=1&e=703355"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "players": [
+    {
+     "name": "Alonso A.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "David G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Eduardo F.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Franco David G.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Ian T.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Iker C.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Jerónimo E.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Jimi Alexander L.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Luis Hernán B.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Santiago R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS430&m=1&e=703565"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "players": [
+    {
+     "name": "Alejandro R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Daniel M.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Diego B.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Diego O.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Emilio Chafic C.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Jorge G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Matias A.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Matias O.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Matías G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Santiago A.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS430&m=1&e=703592"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "players": [
+    {
+     "name": "Derek G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Diego R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Edgar R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Eduardo C.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Javier C.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Jeronimo D.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Mateo G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Matías Benjamín L.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Norman Alexander M.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Rafael R.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Sebastián A.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Thiago A.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS430&m=1&e=703619"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "players": [
+    {
+     "name": "Alejandro C.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Bernardo G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Bruno A.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Camilo S.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Iker B.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Juan Emilio S.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Kristian I.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Leonardo Joel S.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Nicolas G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Santiago C.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Sebastian R.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS430&m=1&e=703640"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "players": [
+    {
+     "name": "Alejandro B.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Armando C.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Eugenio G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Iván F.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "José Luis M.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "José Pablo D.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Marcelo G.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Oliver John M.",
+     "gk": false,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Patricio A.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    },
+    {
+     "name": "Patricio L.",
+     "gk": true,
+     "goals": 0,
+     "yellow": 0,
+     "red": 0
+    }
+   ],
+   "zione": "https://consola.zione.com.mx/info.equipo.asp?dts=DTS430&m=1&e=703661"
+  }
+ ]
+}
