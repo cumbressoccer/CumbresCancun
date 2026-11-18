@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:59:19-06:00",
+ "updated": "2026-11-18T14:15:29-06:00",
  "source": "zione (TDLA 2026)",
  "teams": [
   {
@@ -181,7 +181,7 @@
     {
      "name": "Jonatan Alexis P.",
      "gk": false,
-     "goals": 2,
+     "goals": 3,
      "yellow": 0,
      "red": 0
     },
@@ -217,13 +217,13 @@
      "name": "Mateo P.",
      "gk": false,
      "goals": 0,
-     "yellow": 0,
+     "yellow": 1,
      "red": 0
     },
     {
      "name": "Raul R.",
      "gk": false,
-     "goals": 10,
+     "goals": 11,
      "yellow": 0,
      "red": 0
     },
