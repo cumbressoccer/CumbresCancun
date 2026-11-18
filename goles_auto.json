@@ -86,5 +86,27 @@
   "Futbol 7 varonil 2020–2021|Patricio A.": 0,
   "Futbol 7 varonil 2020–2021|Patricio L.": 0
  },
- "goals": []
+ "goals": [
+  {
+   "date": "2026-11-18",
+   "time": "12:20",
+   "cat": "Futbol 9 femenil 2008",
+   "player": "Isabel L.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-18",
+   "time": "12:50",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "player": "Jonatan Alexis P.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-18",
+   "time": "12:50",
+   "cat": "Futbol rápido varonil 2010–2011",
+   "player": "Raul R.",
+   "n": 1
+  }
+ ]
 }
