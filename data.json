@@ -1,8 +1,9 @@
 {
- "updated": "2026-11-18T13:50:35-06:00",
- "checked": "2026-11-18T13:50:35-06:00",
+ "updated": "2026-11-18T13:59:25-06:00",
+ "checked": "2026-11-18T13:59:25-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
- "rol_leido": "2026-11-18T19:48:28.823Z",
+ "rol_leido": "2026-11-18T19:54:28.113Z",
+ "zione_marcadores": 3,
  "matches": [
   {
    "date": "2026-11-16",
@@ -89,8 +90,8 @@
    "rival": "Prepa Anáhuac Monterrey campus San Agustín",
    "field": "Campo 13",
    "venue": "Andes",
-   "gf": null,
-   "ga": null
+   "gf": 1,
+   "ga": 1
   },
   {
    "date": "2026-11-18",
@@ -317,31 +318,31 @@
   {
    "cat": "Futbol 9 femenil 2008",
    "group": "C",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
-     "pj": 3,
-     "pts": 9,
+     "pj": 4,
+     "pts": 10,
      "dg": 14
     },
     {
      "team": "Prepa Anáhuac Monterrey campus San Agustín",
-     "pj": 3,
-     "pts": 9,
+     "pj": 4,
+     "pts": 10,
      "dg": 13
     },
     {
      "team": "Del Bosque International School",
-     "pj": 3,
-     "pts": 3,
-     "dg": 1
+     "pj": 4,
+     "pts": 6,
+     "dg": 6
     },
     {
      "team": "Cumbres International School Tijuana",
-     "pj": 3,
+     "pj": 4,
      "pts": 3,
-     "dg": -8
+     "dg": -13
     },
     {
      "team": "Cumbres International School Guadalajara",
@@ -354,7 +355,7 @@
   {
    "cat": "Futbol rápido varonil 2010–2011",
    "group": "C",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -385,7 +386,7 @@
   {
    "cat": "Futbol rápido varonil 2008–2009",
    "group": "D",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -416,7 +417,7 @@
   {
    "cat": "Futbol 7 varonil 2020–2021",
    "group": "A",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -453,7 +454,7 @@
   {
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "F",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -484,7 +485,7 @@
   {
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "A",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Andes International School Puebla",
@@ -521,7 +522,7 @@
   {
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "A",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Andes International School Puebla",
@@ -558,7 +559,7 @@
   {
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "H",
-   "read": "2026-11-18 13:48",
+   "read": "2026-11-18 13:54",
    "rows": [
     {
      "team": "Colegio Interamericano Guadalajara",
