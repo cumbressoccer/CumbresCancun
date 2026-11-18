@@ -1,8 +1,0 @@
-Salón de la fama
-								
-								Jugadores destacados de la => https://consola.zione.com.mx/views/honor.asp?dts=DTS430
-Ubicación
-							Ubicación de nuestras canchas => https://consola.zione.com.mx/views/location.asp?dts=DTS430
-Equipos => https://consola.zione.com.mx/rol.juegos.asp?dts=DTS430&m=3&torID=0&v=2#
-Por equipo => https://consola.zione.com.mx/rol.juegos.asp?dts=DTS430&m=3&torID=0&v=2
-Por cancha => https://consola.zione.com.mx/rol.juegos.asp?dts=DTS430&m=1&torID=0&v=3
