@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: actualizar
@@ -57,3 +58,15 @@ jobs:
             [ $(( $(date +%s) + 300 )) -ge $fin ] && break
             sleep 300
           done
+      - name: Relanzarse para la siguiente hora
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Se vuelve a lanzar sin parar mientras dura el torneo (repo público: los minutos son gratis).
+          dia=$(TZ=America/Mexico_City date +%Y%m%d)
+          if [ "$dia" -le 20261124 ]; then
+            gh workflow run actualizar.yml --ref main -R "$GITHUB_REPOSITORY" && echo "relanzado"
+          else
+            echo "torneo terminado, no se relanza"
+          fi
