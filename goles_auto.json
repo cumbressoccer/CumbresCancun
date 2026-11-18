@@ -11,15 +11,15 @@
   "Futbol 9 femenil 2008|Sofia G.": 0,
   "Futbol 9 femenil 2008|Sophie M.": 0,
   "Futbol 9 femenil 2008|Valentina P.": 0,
-  "Futbol rápido varonil 2008–2009|Diego T.": 3,
-  "Futbol rápido varonil 2008–2009|Emiliano L.": 1,
-  "Futbol rápido varonil 2008–2009|Guillermo E.": 3,
+  "Futbol rápido varonil 2008–2009|Diego T.": 4,
+  "Futbol rápido varonil 2008–2009|Emiliano L.": 2,
+  "Futbol rápido varonil 2008–2009|Guillermo E.": 5,
   "Futbol rápido varonil 2008–2009|Hugo R.": 0,
   "Futbol rápido varonil 2008–2009|Jorge R.": 0,
   "Futbol rápido varonil 2008–2009|Luis Rodrigo T.": 2,
   "Futbol rápido varonil 2008–2009|Santiago C.": 1,
   "Futbol rápido varonil 2008–2009|Santiago P.": 3,
-  "Futbol rápido varonil 2008–2009|Valentino de Jesús I.": 1,
+  "Futbol rápido varonil 2008–2009|Valentino de Jesús I.": 3,
   "Futbol rápido varonil 2010–2011|Abraham Heriberto R.": 0,
   "Futbol rápido varonil 2010–2011|Alejandro F.": 0,
   "Futbol rápido varonil 2010–2011|Daniel G.": 0,
@@ -107,6 +107,34 @@
    "cat": "Futbol rápido varonil 2010–2011",
    "player": "Raul R.",
    "n": 1
+  },
+  {
+   "date": "2026-11-18",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Diego T.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-18",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Emiliano L.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-18",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Guillermo E.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-18",
+   "time": "15:10",
+   "cat": "Futbol rápido varonil 2008–2009",
+   "player": "Valentino de Jesús I.",
+   "n": 2
   }
  ]
 }

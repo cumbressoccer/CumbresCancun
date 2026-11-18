@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T14:15:29-06:00",
+ "updated": "2026-11-18T16:30:23-06:00",
  "source": "zione (TDLA 2026)",
  "teams": [
   {
@@ -91,21 +91,21 @@
     {
      "name": "Diego T.",
      "gk": false,
-     "goals": 3,
+     "goals": 4,
      "yellow": 0,
      "red": 0
     },
     {
      "name": "Emiliano L.",
      "gk": false,
-     "goals": 1,
+     "goals": 2,
      "yellow": 0,
      "red": 0
     },
     {
      "name": "Guillermo E.",
      "gk": false,
-     "goals": 3,
+     "goals": 5,
      "yellow": 0,
      "red": 0
     },
@@ -147,7 +147,7 @@
     {
      "name": "Valentino de Jesús I.",
      "gk": false,
-     "goals": 1,
+     "goals": 3,
      "yellow": 0,
      "red": 0
     }
