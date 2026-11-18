@@ -20,7 +20,7 @@ permissions:
 
 concurrency:
   group: actualizar
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   actualizar:
@@ -71,7 +71,7 @@ jobs:
             sleep 300
           done
       - name: Relanzarse para la siguiente hora
-        if: always()
+        if: success() || failure()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

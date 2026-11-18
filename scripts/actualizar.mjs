@@ -23,6 +23,38 @@ function categoria(p) {
   return `${DEPORTE[p.d] || p.d} ${p.r} ${anios}`;
 }
 
+// zione (sistema oficial del torneo) publica marcadores antes que Tagers.
+const ZIONE = [['DTS430', 435], ['DTS431', 443], ['DTS433', 445]];
+function catZione(m) {
+  const t = String(m.tournamentName || '').replace(/\s*2026\s*$/, '').replace('Futbol Rápido', 'Futbol rápido');
+  return `${t} ${String(m.categoryName || '').replace(/\s*-\s*/g, '–')}`;
+}
+async function leerZione(browser) {
+  const out = [];
+  try {
+    const page = await browser.newPage();
+    await page.goto('https://consola.zione.com.mx/main4.asp?dts=DTS431', { waitUntil: 'domcontentloaded', timeout: 60000 });
+    const hoy = new Date();
+    const dias = [-1, 0].map(k => new Date(hoy.getTime() + k * 86400000))
+      .map(d => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Mexico_City' }).format(d));
+    for (const [dts, cid] of ZIONE) for (const dia of dias) {
+      try {
+        const txt = await page.evaluate(async (u) => { const r = await fetch(u, { cache: 'no-store' }); return r.ok ? await r.text() : '[]'; },
+          `/api/t45/recent-results.asp?dts=${dts}&cid=${cid}&date=${dia}&sport=A`);
+        const arr = JSON.parse(txt.replace(/^\uFEFF/, '').trim() || '[]');
+        for (const m of Array.isArray(arr) ? arr : []) {
+          if (!m.teams || m.teams.length !== 2) continue;
+          const [A, B] = m.teams;
+          if (A.score === null || A.score === undefined || B.score === null || B.score === undefined) continue;
+          out.push({ f: m.date, h: m.time, cat: catZione(m), a: A.name, b: B.name, x: Number(A.score), y: Number(B.score) });
+        }
+      } catch (e) { console.error('zione', dts, dia, e.message); }
+    }
+    await page.close();
+  } catch (e) { console.error('zione:', e.message); }
+  return out;
+}
+
 async function leerRol() {
   const browser = await chromium.launch();
   try {
@@ -33,7 +65,9 @@ async function leerRol() {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return await r.text();
     }, ROL);
-    return JSON.parse(txt);
+    const rol = JSON.parse(txt);
+    rol.__zione = await leerZione(browser);
+    return rol;
   } finally {
     await browser.close();
   }
@@ -46,6 +80,17 @@ if (yo < 0 || !Array.isArray(rol.partidos) || rol.partidos.length < 100) {
   console.error('Rol incompleto o sin el colegio; no se actualiza.');
   process.exit(1);
 }
+const zione = rol.__zione || [];
+let deZione = 0;
+for (const p of rol.partidos) {
+  if (p.e === 'Jugado' && /^\s*\d+\s*-\s*\d+\s*$/.test(p.m || '')) continue;
+  const cat = categoria(p);
+  const na = C[p.a], nb = C[p.b];
+  const z = zione.find(z => z.f === p.f && z.h === p.h && z.cat === cat && ((z.a === na && z.b === nb) || (z.a === nb && z.b === na)));
+  if (!z) continue;
+  p.e = 'Jugado'; p.m = z.a === na ? `${z.x}-${z.y}` : `${z.y}-${z.x}`; deZione++;
+}
+console.log(`zione: ${zione.length} resultados leídos, ${deZione} marcadores agregados`);
 const nombre = (p, lado) => (p[lado] !== null && p[lado] !== undefined && C[p[lado]]) ? C[p[lado]] : (p[lado + 'n'] || p[lado + 'e'] || 'Por definir');
 
 const anterior = fs.existsSync('data.json') ? JSON.parse(fs.readFileSync('data.json', 'utf8')) : null;
@@ -101,6 +146,7 @@ const data = {
   checked: ahora,
   source: 'https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios',
   rol_leido: rol.leido || null,
+  zione_marcadores: deZione,
   matches, standings
 };
 fs.writeFileSync('data.json', JSON.stringify(data, null, 1) + '\n');
