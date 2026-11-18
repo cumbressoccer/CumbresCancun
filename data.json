@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-18T15:16:55-06:00",
- "checked": "2026-11-18T15:22:22-06:00",
+ "updated": "2026-11-18T15:27:28-06:00",
+ "checked": "2026-11-18T15:27:28-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
- "rol_leido": "2026-11-18T21:14:29.056Z",
- "zione_marcadores": 1,
+ "rol_leido": "2026-11-18T21:24:28.263Z",
+ "zione_marcadores": 0,
  "matches": [
   {
    "date": "2026-11-16",
@@ -330,7 +330,7 @@
   {
    "cat": "Futbol 9 femenil 2008",
    "group": "C",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -367,7 +367,7 @@
   {
    "cat": "Futbol rápido varonil 2010–2011",
    "group": "C",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -398,7 +398,7 @@
   {
    "cat": "Futbol rápido varonil 2008–2009",
    "group": "D",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -408,9 +408,9 @@
     },
     {
      "team": "Prepa Anáhuac Monterrey campus San Agustín",
-     "pj": 2,
-     "pts": 3,
-     "dg": 5
+     "pj": 3,
+     "pts": 6,
+     "dg": 11
     },
     {
      "team": "Instituto Cumbres Campeche",
@@ -420,16 +420,16 @@
     },
     {
      "team": "Irish Institute México",
-     "pj": 2,
+     "pj": 3,
      "pts": 0,
-     "dg": -12
+     "dg": -18
     }
    ]
   },
   {
    "cat": "Futbol 7 varonil 2020–2021",
    "group": "A",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -466,7 +466,7 @@
   {
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "F",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -497,7 +497,7 @@
   {
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "A",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Andes International School Puebla",
@@ -534,7 +534,7 @@
   {
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "A",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Andes International School Puebla",
@@ -571,7 +571,7 @@
   {
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "H",
-   "read": "2026-11-18 15:14",
+   "read": "2026-11-18 15:24",
    "rows": [
     {
      "team": "Colegio Interamericano Guadalajara",
