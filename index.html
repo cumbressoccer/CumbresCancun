@@ -187,7 +187,7 @@ const US = "Cumbres International School Cancún";
 const TZ = "America/Mexico_City";
 const DOW = ["Dom","Lun","Mar","Mié","Jue","Vie","Sáb"];
 const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
-let DATA = null, GOLES = {goals:[]}, ROSTER = {teams:[]}, state = {day:null, cat:"all"};
+let DATA = null, GOLES = {goals:[]}, AUTO = {goals:[]}, ROSTER = {teams:[]}, state = {day:null, cat:"all"};
 
 function nowPuebla(){
   const p = Object.fromEntries(new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
@@ -203,14 +203,15 @@ function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;","
 function outcome(m){if(m.gf==null||m.ga==null)return null;return m.gf>m.ga?"w":m.gf<m.ga?"l":"d";}
 const LBL={w:"Ganó",d:"Empate",l:"Perdió"};
 const mkey=m=>`${m.date}|${m.time}|${m.cat}`;
-function goalsOf(m){return GOLES.goals.filter(g=>mkey(g)===mkey(m));}
+function goalsOf(m){const s=GOLES.goals.filter(g=>mkey(g)===mkey(m)); return s.length?s:(AUTO.goals||[]).filter(g=>mkey(g)===mkey(m));}
+function allMatchGoals(){const keys=new Set(GOLES.goals.map(mkey)); return GOLES.goals.concat((AUTO.goals||[]).filter(g=>!keys.has(mkey(g))));}
 function scorerLine(m){
   const gs=goalsOf(m); if(!gs.length) return "";
   return `<div class="scorers"><span class="lbl">Goles</span>${gs.map(g=>`<span><b>${esc(g.own?"Autogol a favor":g.player)}</b>${(g.n||1)>1?` <span class="x">×${g.n}</span>`:""}</span>`).join("")}</div>`;
 }
 function scorerTable(){
   const map=new Map();
-  for(const g of GOLES.goals){ if(g.own) continue;
+  for(const g of allMatchGoals()){ if(g.own) continue;
     const k=g.player+"|"+g.cat; const e=map.get(k)||{player:g.player,cat:g.cat,goals:0};
     e.goals+=(g.n||1); map.set(k,e);}
   // Goles oficiales de zione: se toma el mayor entre la hoja y zione.
@@ -325,8 +326,9 @@ window.addEventListener("hashchange",()=>{state.day=null;render();});
 
 const getGoles=fetch("goles.json",{cache:"no-store"}).then(r=>r.ok?r.json():{goals:[]}).catch(()=>({goals:[]}));
 const getRoster=fetch("roster.json",{cache:"no-store"}).then(r=>r.ok?r.json():{teams:[]}).catch(()=>({teams:[]}));
+const getAuto=fetch("goles_auto.json",{cache:"no-store"}).then(r=>r.ok?r.json():{goals:[]}).catch(()=>({goals:[]}));
 fetch("data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})
- .then(async j=>{DATA=j;const g=await getGoles;GOLES={goals:Array.isArray(g.goals)?g.goals:[]};const ro=await getRoster;ROSTER={teams:Array.isArray(ro.teams)?ro.teams:[]};render();setInterval(render,60000);})
+ .then(async j=>{DATA=j;const g=await getGoles;GOLES={goals:Array.isArray(g.goals)?g.goals:[]};const ro=await getRoster;ROSTER={teams:Array.isArray(ro.teams)?ro.teams:[]};const au=await getAuto;AUTO={goals:Array.isArray(au.goals)?au.goals:[]};render();setInterval(render,60000);})
  .catch(()=>{document.getElementById("list").innerHTML=`<div class="empty">No se pudieron cargar los partidos. Recarga la página.</div>`;document.getElementById("updated").textContent="Sin datos";});
 </script>
 </body>

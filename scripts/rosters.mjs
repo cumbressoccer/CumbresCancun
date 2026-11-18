@@ -81,6 +81,39 @@ for (const [dts, e] of EQUIPOS) {
 await browser.close();
 if (!ok) { console.error('Ningún roster leído; no se cambia roster.json'); process.exit(1); }
 const teams = [...porCat.values()];
+
+// Goles por partido automáticos: cuando el total de un jugador sube, la diferencia
+// se asigna al último partido ya iniciado de su equipo.
+try {
+  const data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+  const auto = fs.existsSync('goles_auto.json') ? JSON.parse(fs.readFileSync('goles_auto.json', 'utf8')) : { snapshot: null, goals: [] };
+  const ahora = puebla(new Date()).slice(0, 16);
+  const snap = {};
+  for (const t of teams) for (const p of t.players) snap[`${t.cat}|${p.name}`] = p.goals || 0;
+  let nuevos = 0;
+  if (auto.snapshot) {
+    for (const t of teams) {
+      const iniciados = data.matches.filter(m => m.cat === t.cat && `${m.date}T${m.time}` <= ahora)
+        .sort((a, b) => (b.date + b.time).localeCompare(a.date + a.time));
+      const objetivo = iniciados[0];
+      if (!objetivo) continue;
+      for (const p of t.players) {
+        const k = `${t.cat}|${p.name}`;
+        const antes = auto.snapshot[k];
+        if (antes === undefined) continue;
+        const delta = (p.goals || 0) - antes;
+        if (delta <= 0) continue;
+        const e = auto.goals.find(g => g.date === objetivo.date && g.time === objetivo.time && g.cat === t.cat && g.player === p.name);
+        if (e) e.n += delta; else auto.goals.push({ date: objetivo.date, time: objetivo.time, cat: t.cat, player: p.name, n: delta });
+        nuevos += delta;
+      }
+    }
+  }
+  auto.snapshot = snap;
+  fs.writeFileSync('goles_auto.json', JSON.stringify(auto, null, 1) + '\n');
+  console.log(`Goles automáticos nuevos: ${nuevos}`);
+} catch (e) { console.error('goles_auto:', e.message); }
+
 const nuevo = JSON.stringify(teams);
 if (nuevo === JSON.stringify(anterior.teams)) { console.log(`Rosters sin cambios (${ok}/8 leídos)`); process.exit(0); }
 fs.writeFileSync('roster.json', JSON.stringify({ updated: puebla(new Date()), source: 'zione (TDLA 2026)', teams }, null, 1) + '\n');

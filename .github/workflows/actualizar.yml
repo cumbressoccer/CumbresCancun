@@ -46,7 +46,7 @@ jobs:
             # Rosters de zione cada 15 minutos (una de cada 3 vueltas)
             if [ $(( vuelta % 3 )) -eq 0 ]; then
               node scripts/rosters.mjs || echo "rosters: sin cambios por error"
-              git add roster.json 2>/dev/null
+              git add roster.json goles_auto.json 2>/dev/null
               if ! git diff --cached --quiet; then
                 git commit -q -m "Robot: actualiza rosters"
                 for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
