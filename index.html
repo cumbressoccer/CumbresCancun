@@ -295,7 +295,7 @@ function render(){
       const tg=ps.reduce((s,p)=>s+(goalsBy.get(p.name+"|"+t.cat)||0),0);
       const rows=ps.map(p=>{const g=goalsBy.get(p.name+"|"+t.cat)||0;
         const cards=`${"<span class=\"tcard y\" aria-label=\"amarilla\"></span>".repeat(p.yellow||0)}${"<span class=\"tcard r\" aria-label=\"roja\"></span>".repeat(p.red||0)}`;
-        return `<tr><td></td><td>${esc(p.name)}${p.gk?'<span class="gk">POR</span>':""}</td><td>${g||"–"}</td><td class="cards">${cards||"–"}</td></tr>`;}).join("");
+        return `<tr><td></td><td>${esc(p.name)}</td><td>${g||"–"}</td><td class="cards">${cards||"–"}</td></tr>`;}).join("");
       return `<details class="tbl"><summary>${esc(shortCat(t.cat))}<span>${ps.length} jugadores · ${tg} goles</span></summary><div class="tbl-scroll"><table>
       <thead><tr><th></th><th>Jugador</th><th>Goles</th><th>Tarjetas</th></tr></thead><tbody>${rows}</tbody></table></div>
       <div class="roster-meta">Roster, goles y tarjetas oficiales de zione.</div></details>`;
