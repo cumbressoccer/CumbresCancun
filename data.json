@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18T17:42:28-06:00",
- "checked": "2026-11-18T18:28:08-06:00",
+ "updated": "2026-11-18T18:32:25-06:00",
+ "checked": "2026-11-18T18:32:25-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-18T23:38:28.756Z",
  "zione_marcadores": 0,
@@ -353,7 +353,84 @@
  "standings": [
   {
    "cat": "Futbol 9 femenil 2008",
+   "group": "A",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Prepa Anáhuac Mérida",
+     "pj": 4,
+     "pts": 10,
+     "dg": 8
+    },
+    {
+     "team": "Prepa Anáhuac México campus Oxford",
+     "pj": 4,
+     "pts": 7,
+     "dg": 2
+    },
+    {
+     "team": "Prepa Anáhuac Querétaro",
+     "pj": 4,
+     "pts": 7,
+     "dg": 1
+    },
+    {
+     "team": "Highlands International School México",
+     "pj": 4,
+     "pts": 3,
+     "dg": -1
+    },
+    {
+     "team": "Cumbres International School Aguascalientes",
+     "pj": 4,
+     "pts": 1,
+     "dg": -10
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Prepa Anáhuac México campus Cumbres",
+     "pj": 4,
+     "pts": 12,
+     "dg": 12
+    },
+    {
+     "team": "Irish International School Hermosillo",
+     "pj": 4,
+     "pts": 9,
+     "dg": 12
+    },
+    {
+     "team": "Cumbres International School San Javier",
+     "pj": 4,
+     "pts": 6,
+     "dg": 1
+    },
+    {
+     "team": "Cumbres International School Saltillo",
+     "pj": 4,
+     "pts": 1,
+     "dg": -9
+    },
+    {
+     "team": "Prepa Anáhuac Toluca",
+     "pj": 4,
+     "pts": 1,
+     "dg": -16
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
    "group": "C",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
@@ -390,7 +467,78 @@
   },
   {
    "cat": "Futbol rápido varonil 2010–2011",
+   "group": "A",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Himalaya International School Monterrey",
+     "pj": 4,
+     "pts": 10,
+     "dg": 18
+    },
+    {
+     "team": "Mano Amiga Acapulco",
+     "pj": 4,
+     "pts": 10,
+     "dg": 10
+    },
+    {
+     "team": "Prepa Anáhuac México campus Oxford",
+     "pj": 4,
+     "pts": 6,
+     "dg": -1
+    },
+    {
+     "team": "Instituto Andes Tuxtla",
+     "pj": 4,
+     "pts": 3,
+     "dg": -2
+    },
+    {
+     "team": "Mano Amiga Tapachula",
+     "pj": 4,
+     "pts": 0,
+     "dg": -25
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Prepa Anáhuac Monterrey campus San Agustín",
+     "pj": 3,
+     "pts": 9,
+     "dg": 10
+    },
+    {
+     "team": "Colegio Interamericano La Piedad",
+     "pj": 3,
+     "pts": 6,
+     "dg": 6
+    },
+    {
+     "team": "Mano Amiga Chalco",
+     "pj": 3,
+     "pts": 3,
+     "dg": -1
+    },
+    {
+     "team": "Instituto Cumbres Piedras Negras",
+     "pj": 3,
+     "pts": 0,
+     "dg": -15
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
    "group": "C",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
@@ -421,7 +569,104 @@
   },
   {
    "cat": "Futbol rápido varonil 2008–2009",
+   "group": "A",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Prepa Anáhuac Chihuahua",
+     "pj": 3,
+     "pts": 7,
+     "dg": 23
+    },
+    {
+     "team": "Prepa Anáhuac Mérida",
+     "pj": 3,
+     "pts": 7,
+     "dg": 16
+    },
+    {
+     "team": "Prepa Anáhuac México campus Cumbres",
+     "pj": 3,
+     "pts": 3,
+     "dg": -17
+    },
+    {
+     "team": "Colegio Interamericano Irapuato",
+     "pj": 3,
+     "pts": 0,
+     "dg": -22
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Tijuana",
+     "pj": 3,
+     "pts": 7,
+     "dg": 5
+    },
+    {
+     "team": "Cumbres International School Aguascalientes",
+     "pj": 3,
+     "pts": 5,
+     "dg": 9
+    },
+    {
+     "team": "Highlands International School México",
+     "pj": 3,
+     "pts": 4,
+     "dg": 5
+    },
+    {
+     "team": "Mano Amiga Tapachula",
+     "pj": 3,
+     "pts": 0,
+     "dg": -19
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "group": "C",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Irish International School Hermosillo",
+     "pj": 3,
+     "pts": 9,
+     "dg": 16
+    },
+    {
+     "team": "Prepa Anáhuac Durango",
+     "pj": 3,
+     "pts": 6,
+     "dg": 9
+    },
+    {
+     "team": "Mano Amiga Chalco",
+     "pj": 3,
+     "pts": 3,
+     "dg": -4
+    },
+    {
+     "team": "Irish International School Nuevo Laredo",
+     "pj": 3,
+     "pts": 0,
+     "dg": -21
+    }
+   ]
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
    "group": "D",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
@@ -453,6 +698,7 @@
   {
    "cat": "Futbol 7 varonil 2020–2021",
    "group": "A",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
@@ -488,8 +734,277 @@
    ]
   },
   {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Andes International School Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Oaxaca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School San Javier",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Himalaya International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish Institute México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "C",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Guadalajara",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Tijuana",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Torreón",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Pinecrest International School",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "group": "D",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Academia Maddox",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Querétaro",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Nuevo Laredo",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Kilimanjaro International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "A",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Guadalajara",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Mérida",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Tijuana",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish Institute México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Colegio Everest Zacatecas",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Colegio Interamericano Guadalajara",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Chetumal",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Kilimanjaro International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "C",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Aguascalientes",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Saltillo",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Cozumel",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "D",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Colegio Everest Chihuahua",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Colegio Interamericano Irapuato",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Morelia",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "E",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Toluca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Himalaya International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Culiacán",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Pinecrest International School",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "F",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
@@ -519,8 +1034,73 @@
    ]
   },
   {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "G",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Andes International School Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School San Salvador",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Tapachula",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish Institute México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "group": "H",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Querétaro",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Los Mochis",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Villahermosa",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Oxford School México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "A",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
@@ -556,8 +1136,213 @@
    ]
   },
   {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Mérida",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Tijuana",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres León",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Kilimanjaro International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Pinecrest International School",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "C",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Toluca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School San Salvador",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Culiacán",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Mano Amiga Acapulco",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "D",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Aguascalientes",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Querétaro",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Himalaya International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Los Mochis",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "E",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School San Javier",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Tuxtla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Villahermosa",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Mano Amiga Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "F",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Lomas",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Saltillo",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "The Highlands School Quito",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "group": "G",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Colegio Everest Chihuahua",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Colegio Interamericano Irapuato",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Oaxaca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish Institute México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "A",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
@@ -593,8 +1378,405 @@
    ]
   },
   {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Lomas",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Querétaro",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School San Salvador",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Tuxtla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Kilimanjaro International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "C",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Tijuana",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Morelia",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish Institute México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Nuevo Laredo",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "D",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School San Javier",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Culiacán",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Bosques",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Celaya",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "E",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Saltillo",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Tapachula",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Oxford School México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "group": "F",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Colegio Everest Chihuahua",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Oaxaca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Toluca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Himalaya International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "A",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Colegio Interamericano Irapuato",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Aguascalientes",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Los Mochis",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Tuxtla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "B",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Tijuana",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Chetumal",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Hermosillo",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Mano Amiga Acapulco",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "C",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Andes International School Puebla",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Oaxaca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Toluca",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Bosques",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "D",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Andes International School San Luis Potosí",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Andes Culiacán",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Tapachula",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "E",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Guadalajara",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Cumbres International School Torreón",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Veracruz",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Irish Institute México",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "F",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Colegio Everest Chihuahua",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Himalaya International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Celaya",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Morelia",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "group": "G",
+   "us": false,
+   "read": "2026-11-18 17:38",
+   "rows": [
+    {
+     "team": "Cumbres International School Querétaro",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Highlands International School San Salvador",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Instituto Cumbres Irapuato",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    },
+    {
+     "team": "Kilimanjaro International School Monterrey",
+     "pj": 0,
+     "pts": 0,
+     "dg": 0
+    }
+   ]
+  },
+  {
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "H",
+   "us": true,
    "read": "2026-11-18 17:38",
    "rows": [
     {
