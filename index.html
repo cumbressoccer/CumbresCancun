@@ -72,6 +72,12 @@ header{background:var(--ink);color:var(--white);padding:20px 0 0}
 .time{font-family:var(--display);font-weight:800;font-size:18px;font-variant-numeric:tabular-nums;line-height:1.1}
 .time small{display:block;font-family:var(--body);font-size:11px;font-weight:500;color:var(--slate)}
 .cat{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;font-weight:600;color:var(--slate)}
+.gtabs{display:flex;gap:6px;overflow-x:auto;padding:10px 14px 2px;scrollbar-width:none}
+.gtabs::-webkit-scrollbar{display:none}
+.gtab{flex:none;min-width:40px;border:1px solid var(--line);background:var(--white);color:var(--ink);border-radius:8px;padding:5px 10px;font:700 13px var(--body);cursor:pointer}
+.gtab[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:var(--white)}
+.gtab .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-left:5px;vertical-align:middle}
+.gtab:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .grp.ko{background:var(--gold);color:var(--ink)}
 .grp{background:var(--mist);color:var(--ink);border-radius:6px;padding:1px 6px;font-size:11px}
 .rival{font-weight:600;font-size:15px;margin-top:2px}
@@ -188,7 +194,7 @@ const US = "Cumbres International School Cancún";
 const TZ = "America/Mexico_City";
 const DOW = ["Dom","Lun","Mar","Mié","Jue","Vie","Sáb"];
 const MES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
-let DATA = null, GOLES = {goals:[]}, AUTO = {goals:[]}, ROSTER = {teams:[]}, state = {day:null, cat:"all"};
+let DATA = null, GOLES = {goals:[]}, AUTO = {goals:[]}, ROSTER = {teams:[]}, state = {day:null, cat:"all", grp:{}};
 
 function nowPuebla(){
   const p = Object.fromEntries(new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
@@ -305,13 +311,20 @@ function render(){
     }).join("");
   }
 
-  // Tablas
-  document.getElementById("tables").innerHTML = DATA.standings.length ? DATA.standings.map(s=>{
-    const r=s.read? s.read.split(" "):null; const rt=r?fmt12(r[1]):null; const ri=r?dayInfo(r[0]):null;
-    return `<div class="tbl"><h3>${esc(shortCat(s.cat))}<span>Grupo ${esc(s.group)}</span></h3><div class="tbl-scroll"><table>
+  // Tablas: una tarjeta por categoría, con pestañas por grupo (A, B, C…)
+  const byCat=new Map();
+  for(const s of DATA.standings){ if(!byCat.has(s.cat)) byCat.set(s.cat,[]); byCat.get(s.cat).push(s); }
+  document.getElementById("tables").innerHTML = byCat.size ? [...byCat].map(([cat,gs])=>{
+    gs.sort((a,b)=>String(a.group).localeCompare(String(b.group)));
+    const mine=gs.find(g=>g.us||g.rows.some(x=>x.team===US))||gs[0];
+    const sel=state.grp[cat]&&gs.some(g=>g.group===state.grp[cat])?state.grp[cat]:mine.group;
+    const g=gs.find(x=>x.group===sel);
+    const r=g.read? g.read.split(" "):null; const rt=r?fmt12(r[1]):null; const ri=r?dayInfo(r[0]):null;
+    const tabs=gs.length>1?`<div class="gtabs" role="tablist">${gs.map(x=>`<button class="gtab" role="tab" data-cat="${esc(cat)}" data-grp="${esc(x.group)}" aria-selected="${x.group===sel}">${esc(x.group)}${x===mine?'<span class="dot" aria-label="Cumbres Cancún"></span>':""}</button>`).join("")}</div>`:"";
+    return `<div class="tbl"><h3>${esc(shortCat(cat))}<span>Grupo ${esc(sel)}</span></h3>${tabs}<div class="tbl-scroll"><table>
     <thead><tr><th>#</th><th>Equipo</th><th>PJ</th><th>DG</th><th>Pts</th></tr></thead><tbody>
-    ${s.rows.map((x,i)=>`<tr class="${x.team===US?"us":""}"><td>${x.pj?i+1:"–"}</td><td>${esc(x.team===US?"Cumbres Cancún":x.team)}</td><td>${x.pj}</td><td>${x.dg>0?"+"+x.dg:x.dg}</td><td>${x.pts}</td></tr>`).join("")}
-    </tbody></table></div>${r?`<div class="read">Tabla leída el ${ri.dow} ${ri.n} a las ${rt.hm} ${rt.ap}. Puede tardar en reflejar un partido recién jugado.</div>`:""}</div>`;
+    ${g.rows.map((x,i)=>`<tr class="${x.team===US?"us":""}"><td>${x.pj?i+1:"–"}</td><td>${esc(x.team===US?"Cumbres Cancún":x.team)}</td><td>${x.pj}</td><td>${x.dg>0?"+"+x.dg:x.dg}</td><td>${x.pts}</td></tr>`).join("")}
+    </tbody></table></div>${r?`<div class="read">Calculada con los resultados publicados al ${ri.dow} ${ri.n}, ${rt.hm} ${rt.ap}.</div>`:""}</div>`;
   }).join("") : `<div class="empty">Aún no hay tablas publicadas.</div>`;
 
   const u=new Date(DATA.checked||DATA.updated);
@@ -322,7 +335,8 @@ function render(){
 
 document.addEventListener("click",e=>{
   const d=e.target.closest(".day"); if(d){state.day=d.dataset.day; try{history.replaceState(null,"","#"+(state.day==="all"?"todos":dayKey(state.day)));}catch(_){location.hash=state.day==="all"?"todos":dayKey(state.day);} render(); return;}
-  const c=e.target.closest(".chip"); if(c){state.cat=c.dataset.cat; render();}
+  const c=e.target.closest(".chip"); if(c){state.cat=c.dataset.cat; render(); return;}
+  const t=e.target.closest(".gtab"); if(t){state.grp[t.dataset.cat]=t.dataset.grp; render();}
 });
 window.addEventListener("hashchange",()=>{state.day=null;render();});
 

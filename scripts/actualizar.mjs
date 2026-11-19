@@ -117,10 +117,14 @@ const matches = mios.map(p => {
 
 // Tablas: para cada grupo donde juega Cumbres Cancún, con todos los partidos del grupo.
 const leido = puebla(new Date(rol.leido || Date.now())).corto;
+// Todos los grupos de cada categoría donde juega Cumbres Cancún (para las pestañas A, B, C…).
 const grupos = new Map();
-for (const p of mios) {
-  if (p.k !== 'grupos' || !p.g) continue;
-  grupos.set(`${p.d}|${p.r}|${p.c}|${p.g}`, { d: p.d, r: p.r, c: p.c, g: p.g, cat: categoria(p) });
+const misCats = new Set(mios.filter(p => p.k === 'grupos').map(p => `${p.d}|${p.r}|${p.c}`));
+const misGrupos = new Set(mios.filter(p => p.k === 'grupos' && p.g).map(p => `${p.d}|${p.r}|${p.c}|${p.g}`));
+for (const p of rol.partidos) {
+  if (p.k !== 'grupos' || !p.g || !misCats.has(`${p.d}|${p.r}|${p.c}`)) continue;
+  const k = `${p.d}|${p.r}|${p.c}|${p.g}`;
+  if (!grupos.has(k)) grupos.set(k, { d: p.d, r: p.r, c: p.c, g: p.g, cat: categoria(p), us: misGrupos.has(k) });
 }
 const standings = [];
 for (const [k, info] of grupos) {
@@ -136,10 +140,10 @@ for (const [k, info] of grupos) {
   }
   const rows = [...t.values()].sort((a, b) => b.pts - a.pts || b.dg - a.dg || b.gf - a.gf || a.team.localeCompare(b.team, 'es'))
     .map(({ team, pj, pts, dg }) => ({ team, pj, pts, dg }));
-  standings.push({ cat: info.cat, group: info.g, read: leido, rows });
+  standings.push({ cat: info.cat, group: info.g, us: info.us, read: leido, rows });
 }
 const orden = matches.map(m => m.cat);
-standings.sort((a, b) => orden.indexOf(a.cat) - orden.indexOf(b.cat));
+standings.sort((a, b) => orden.indexOf(a.cat) - orden.indexOf(b.cat) || String(a.group).localeCompare(String(b.group)));
 
 const ahora = puebla(new Date()).iso;
 const contenido = JSON.stringify({ matches, standings });
