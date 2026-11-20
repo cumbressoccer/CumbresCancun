@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T13:08:20-06:00",
- "checked": "2026-11-20T13:08:20-06:00",
+ "updated": "2026-11-20T13:13:24-06:00",
+ "checked": "2026-11-20T13:13:24-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-20T19:06:28.778Z",
- "zione_marcadores": 8,
+ "zione_marcadores": 12,
  "matches": [
   {
    "date": "2026-11-16",
@@ -976,6 +976,12 @@
    "read": "2026-11-20 13:06",
    "rows": [
     {
+     "team": "Pinecrest International School",
+     "pj": 1,
+     "pts": 3,
+     "dg": 3
+    },
+    {
      "team": "Cumbres International School Toluca",
      "pj": 0,
      "pts": 0,
@@ -989,15 +995,9 @@
     },
     {
      "team": "Instituto Andes Culiacán",
-     "pj": 0,
+     "pj": 1,
      "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Pinecrest International School",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "dg": -3
     }
    ]
   },
@@ -1384,25 +1384,19 @@
    "read": "2026-11-20 13:06",
    "rows": [
     {
+     "team": "Instituto Andes Tuxtla",
+     "pj": 1,
+     "pts": 3,
+     "dg": 7
+    },
+    {
      "team": "Highlands International School San Salvador",
      "pj": 1,
      "pts": 3,
      "dg": 3
     },
     {
-     "team": "Cumbres International School Lomas",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
      "team": "Cumbres International School Querétaro",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Instituto Andes Tuxtla",
      "pj": 0,
      "pts": 0,
      "dg": 0
@@ -1412,6 +1406,12 @@
      "pj": 1,
      "pts": 0,
      "dg": -3
+    },
+    {
+     "team": "Cumbres International School Lomas",
+     "pj": 1,
+     "pts": 0,
+     "dg": -7
     }
    ]
   },
