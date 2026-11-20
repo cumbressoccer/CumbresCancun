@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T17:19:41-06:00",
- "checked": "2026-11-20T17:19:41-06:00",
+ "updated": "2026-11-20T17:25:27-06:00",
+ "checked": "2026-11-20T17:25:27-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-20T22:54:28.366Z",
- "zione_marcadores": 3,
+ "zione_marcadores": 7,
  "matches": [
   {
    "date": "2026-11-16",
@@ -802,34 +802,34 @@
    "read": "2026-11-20 16:54",
    "rows": [
     {
-     "team": "Cumbres International School Torreón",
-     "pj": 1,
-     "pts": 3,
-     "dg": 7
-    },
-    {
      "team": "Cumbres International School Guadalajara",
-     "pj": 1,
-     "pts": 3,
-     "dg": 3
+     "pj": 2,
+     "pts": 6,
+     "dg": 5
     },
     {
      "team": "Cumbres International School Tijuana",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "pj": 1,
+     "pts": 3,
+     "dg": 6
     },
     {
-     "team": "Highlands International School Monterrey",
-     "pj": 1,
-     "pts": 0,
-     "dg": -3
+     "team": "Cumbres International School Torreón",
+     "pj": 2,
+     "pts": 3,
+     "dg": 5
     },
     {
      "team": "Pinecrest International School",
      "pj": 1,
      "pts": 0,
      "dg": -7
+    },
+    {
+     "team": "Highlands International School Monterrey",
+     "pj": 2,
+     "pts": 0,
+     "dg": -9
     }
    ]
   },
@@ -974,16 +974,16 @@
      "dg": 4
     },
     {
-     "team": "Colegio Everest Chihuahua",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "team": "Instituto Cumbres Morelia",
+     "pj": 1,
+     "pts": 3,
+     "dg": 3
     },
     {
-     "team": "Instituto Cumbres Morelia",
-     "pj": 0,
+     "team": "Colegio Everest Chihuahua",
+     "pj": 1,
      "pts": 0,
-     "dg": 0
+     "dg": -3
     },
     {
      "team": "Colegio Interamericano Irapuato",
@@ -1409,9 +1409,9 @@
    "rows": [
     {
      "team": "Instituto Andes Tuxtla",
-     "pj": 1,
-     "pts": 3,
-     "dg": 7
+     "pj": 2,
+     "pts": 6,
+     "dg": 10
     },
     {
      "team": "Cumbres International School Querétaro",
@@ -1427,9 +1427,9 @@
     },
     {
      "team": "Kilimanjaro International School Monterrey",
-     "pj": 1,
+     "pj": 2,
      "pts": 0,
-     "dg": -3
+     "dg": -6
     },
     {
      "team": "Cumbres International School Lomas",
