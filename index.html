@@ -207,7 +207,7 @@ function shortCat(c){
   return c.replace("Futbol 9 femenil","Fut 9 · Femenil").replace("Futbol rápido varonil","Rápido · Varonil").replace("Futbol 7 varonil","Fut 7 · Varonil").replace(/(\d{4})–\d{2}(\d{2})/,"$1–$2");
 }
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
-function outcome(m){if(m.gf==null||m.ga==null)return null;return m.gf>m.ga?"w":m.gf<m.ga?"l":"d";}
+function outcome(m){if(m.gf==null||m.ga==null)return null;if(m.gf===m.ga&&m.pf!=null&&m.pa!=null)return m.pf>m.pa?"w":"l";return m.gf>m.ga?"w":m.gf<m.ga?"l":"d";}
 const LBL={w:"Ganó",d:"Empate",l:"Perdió"};
 function phaseTxt(p){const w=String(p).trim().split(/\s+/),h=w.length/2;const t=(Number.isInteger(h)&&w.slice(0,h).join(" ")===w.slice(h).join(" "))?w.slice(0,h).join(" "):w.join(" ");return t.charAt(0).toUpperCase()+t.slice(1).toLowerCase();}
 const mkey=m=>`${m.date}|${m.time}|${m.cat}`;
@@ -271,7 +271,7 @@ function render(){
     const t=fmt12(m.time), o=outcome(m), di=dayInfo(m.date);
     const past=(m.date+"T"+m.time)<=now.stamp;
     let res;
-    if(o) res=`<div class="score">${m.gf}–${m.ga}</div><span class="pill ${o}">${LBL[o]}</span>`;
+    if(o) res=`<div class="score">${m.gf}–${m.ga}</div>${m.pf!=null?`<div class="where">Penales ${m.pf}–${m.pa}</div>`:""}<span class="pill ${o}">${LBL[o]}</span>`;
     else if(past) res=`<span class="pill wait">Sin marcador</span>`;
     else res=`<span class="pill pend">Por jugar</span>`;
     return `<article class="match${next&&m===next?" is-next":""}">

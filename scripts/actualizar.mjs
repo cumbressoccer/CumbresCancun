@@ -98,16 +98,21 @@ const anterior = fs.existsSync('data.json') ? JSON.parse(fs.readFileSync('data.j
 const mios = rol.partidos.filter(p => p.a === yo || p.b === yo);
 const matches = mios.map(p => {
   const local = p.a === yo;
-  let gf = null, ga = null;
-  if (p.e === 'Jugado' && /^\s*\d+\s*-\s*\d+\s*$/.test(p.m || '')) {
-    const [x, y] = p.m.split('-').map(n => parseInt(n, 10));
+  let gf = null, ga = null, pf = null, pa = null;
+  const mm = String(p.m || '').match(/^\s*(\d+)\s*-\s*(\d+)/);
+  if (mm && (p.e === 'Jugado' || p.e === 'Finalizado' || /^\s*\d+\s*-\s*\d+/.test(p.m))) {
+    const x = +mm[1], y = +mm[2];
     gf = local ? x : y; ga = local ? y : x;
+    const pen = String(p.m).match(/\(\s*(\d+)\s*-\s*(\d+)\s*\)/);
+    if (pen) { const a = +pen[1], b = +pen[2]; pf = local ? a : b; pa = local ? b : a; }
   }
   const m = {
     date: p.f, time: p.h, cat: categoria(p), group: p.g || '',
     rival: nombre(p, local ? 'b' : 'a'), field: p.l || '', venue: SEDE[p.s] || p.s || '',
     gf, ga
   };
+  if (pf !== null) { m.pf = pf; m.pa = pa; }
+  if (gf === null && (p.m || (p.e && p.e !== 'Programado'))) m.raw = `${p.e || ''} ${p.m || ''}`.trim();
   if (p.k && p.k !== 'grupos') {
     const w = String(p.j || p.k).trim().split(/\s+/); const h = w.length / 2;
     m.phase = (Number.isInteger(h) && w.slice(0, h).join(' ') === w.slice(h).join(' ')) ? w.slice(0, h).join(' ') : w.join(' ');
