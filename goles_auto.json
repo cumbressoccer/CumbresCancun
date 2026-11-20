@@ -76,13 +76,13 @@
   "Futbol 7 varonil 2018–2019|Santiago C.": 0,
   "Futbol 7 varonil 2018–2019|Sebastian R.": 0,
   "Futbol 7 varonil 2020–2021|Alejandro B.": 0,
-  "Futbol 7 varonil 2020–2021|Armando C.": 0,
+  "Futbol 7 varonil 2020–2021|Armando C.": 1,
   "Futbol 7 varonil 2020–2021|Eugenio G.": 0,
   "Futbol 7 varonil 2020–2021|Iván F.": 0,
   "Futbol 7 varonil 2020–2021|José Luis M.": 0,
   "Futbol 7 varonil 2020–2021|José Pablo D.": 0,
-  "Futbol 7 varonil 2020–2021|Marcelo G.": 0,
-  "Futbol 7 varonil 2020–2021|Oliver John M.": 0,
+  "Futbol 7 varonil 2020–2021|Marcelo G.": 3,
+  "Futbol 7 varonil 2020–2021|Oliver John M.": 2,
   "Futbol 7 varonil 2020–2021|Patricio A.": 0,
   "Futbol 7 varonil 2020–2021|Patricio L.": 0
  },
@@ -134,6 +134,27 @@
    "time": "15:10",
    "cat": "Futbol rápido varonil 2008–2009",
    "player": "Valentino de Jesús I.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-20",
+   "time": "14:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Armando C.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-20",
+   "time": "14:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Marcelo G.",
+   "n": 3
+  },
+  {
+   "date": "2026-11-20",
+   "time": "14:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Oliver John M.",
    "n": 2
   }
  ]
