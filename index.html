@@ -283,7 +283,7 @@ function render(){
     const t=fmt12(m.time), o=outcome(m), di=dayInfo(m.date);
     const past=(m.date+"T"+m.time)<=now.stamp;
     let res;
-    if(o) res=`<div class="score">${m.gf}–${m.ga}</div>${m.pf!=null?`<div class="where">Penales ${m.pf}–${m.pa}</div>`:""}<span class="pill ${o}">${LBL[o]}</span>`;
+    if(o) res=`<div class="score">${m.gf}–${m.ga}</div>${m.pf!=null?`<div class="where">Penales ${m.pf}–${m.pa}</div>`:""}<span class="pill ${o}">${o==="d"&&m.phase&&m.pf==null?"Penales":LBL[o]}</span>`;
     else if(past) res=`<span class="pill wait">Sin marcador</span>`;
     else res=`<span class="pill pend">Por jugar</span>`;
     return `<article class="match${next&&m===next?" is-next":""}">
