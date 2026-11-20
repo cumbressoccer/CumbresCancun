@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T14:50:06-06:00",
- "checked": "2026-11-20T14:50:06-06:00",
+ "updated": "2026-11-20T14:55:22-06:00",
+ "checked": "2026-11-20T14:55:22-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
- "rol_leido": "2026-11-20T20:44:28.296Z",
- "zione_marcadores": 36,
+ "rol_leido": "2026-11-20T20:50:28.261Z",
+ "zione_marcadores": 41,
  "matches": [
   {
    "date": "2026-11-16",
@@ -147,8 +147,8 @@
    "rival": "Prepa Anáhuac Durango",
    "field": "Cancha 15 FR",
    "venue": "Andes",
-   "gf": null,
-   "ga": null,
+   "gf": 5,
+   "ga": 5,
    "phase": "Cuartos de Final"
   },
   {
@@ -367,7 +367,7 @@
    "cat": "Futbol 9 femenil 2008",
    "group": "A",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Prepa Anáhuac Mérida",
@@ -405,7 +405,7 @@
    "cat": "Futbol 9 femenil 2008",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Prepa Anáhuac México campus Cumbres",
@@ -443,7 +443,7 @@
    "cat": "Futbol 9 femenil 2008",
    "group": "C",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -481,7 +481,7 @@
    "cat": "Futbol rápido varonil 2010–2011",
    "group": "A",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Himalaya International School Monterrey",
@@ -519,7 +519,7 @@
    "cat": "Futbol rápido varonil 2010–2011",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Prepa Anáhuac Monterrey campus San Agustín",
@@ -551,7 +551,7 @@
    "cat": "Futbol rápido varonil 2010–2011",
    "group": "C",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -583,7 +583,7 @@
    "cat": "Futbol rápido varonil 2008–2009",
    "group": "A",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Prepa Anáhuac Chihuahua",
@@ -615,7 +615,7 @@
    "cat": "Futbol rápido varonil 2008–2009",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Tijuana",
@@ -647,7 +647,7 @@
    "cat": "Futbol rápido varonil 2008–2009",
    "group": "C",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Irish International School Hermosillo",
@@ -679,7 +679,7 @@
    "cat": "Futbol rápido varonil 2008–2009",
    "group": "D",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -711,7 +711,7 @@
    "cat": "Futbol 7 varonil 2020–2021",
    "group": "A",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -749,7 +749,7 @@
    "cat": "Futbol 7 varonil 2020–2021",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Irish Institute México",
@@ -787,8 +787,14 @@
    "cat": "Futbol 7 varonil 2020–2021",
    "group": "C",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
+    {
+     "team": "Cumbres International School Torreón",
+     "pj": 1,
+     "pts": 3,
+     "dg": 7
+    },
     {
      "team": "Cumbres International School Guadalajara",
      "pj": 1,
@@ -802,22 +808,16 @@
      "dg": 0
     },
     {
-     "team": "Cumbres International School Torreón",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Pinecrest International School",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
      "team": "Highlands International School Monterrey",
      "pj": 1,
      "pts": 0,
      "dg": -3
+    },
+    {
+     "team": "Pinecrest International School",
+     "pj": 1,
+     "pts": 0,
+     "dg": -7
     }
    ]
   },
@@ -825,7 +825,7 @@
    "cat": "Futbol 7 varonil 2020–2021",
    "group": "D",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Kilimanjaro International School Monterrey",
@@ -857,7 +857,7 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "A",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Guadalajara",
@@ -889,7 +889,7 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Colegio Everest Zacatecas",
@@ -921,7 +921,7 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "C",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Aguascalientes",
@@ -953,7 +953,7 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "D",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Colegio Everest Chihuahua",
@@ -985,7 +985,7 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "E",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Pinecrest International School",
@@ -1017,7 +1017,7 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "F",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Cancún",
@@ -1049,13 +1049,13 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "G",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Andes International School Puebla",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "pj": 1,
+     "pts": 3,
+     "dg": 2
     },
     {
      "team": "Highlands International School San Salvador",
@@ -1071,9 +1071,9 @@
     },
     {
      "team": "Irish Institute México",
-     "pj": 0,
+     "pj": 1,
      "pts": 0,
-     "dg": 0
+     "dg": -2
     }
    ]
   },
@@ -1081,7 +1081,7 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "group": "H",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Querétaro",
@@ -1113,7 +1113,7 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "A",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Highlands International School Monterrey",
@@ -1151,7 +1151,7 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Mérida",
@@ -1189,24 +1189,24 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "C",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Toluca",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Highlands International School México",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "pj": 1,
+     "pts": 3,
+     "dg": 10
     },
     {
      "team": "Highlands International School San Salvador",
-     "pj": 0,
-     "pts": 0,
+     "pj": 1,
+     "pts": 1,
+     "dg": 0
+    },
+    {
+     "team": "Mano Amiga Acapulco",
+     "pj": 1,
+     "pts": 1,
      "dg": 0
     },
     {
@@ -1216,10 +1216,10 @@
      "dg": 0
     },
     {
-     "team": "Mano Amiga Acapulco",
-     "pj": 0,
+     "team": "Highlands International School México",
+     "pj": 1,
      "pts": 0,
-     "dg": 0
+     "dg": -10
     }
    ]
   },
@@ -1227,7 +1227,7 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "D",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Aguascalientes",
@@ -1259,7 +1259,7 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "E",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Instituto Cumbres Villahermosa",
@@ -1291,7 +1291,7 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "F",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Irish International School Monterrey",
@@ -1323,7 +1323,7 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "group": "G",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Colegio Everest Chihuahua",
@@ -1355,7 +1355,7 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "A",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Pinecrest International School",
@@ -1393,7 +1393,7 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Instituto Andes Tuxtla",
@@ -1431,7 +1431,7 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "C",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Tijuana",
@@ -1463,7 +1463,7 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "D",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School San Javier",
@@ -1495,7 +1495,7 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "E",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Saltillo",
@@ -1527,7 +1527,7 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "group": "F",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Colegio Everest Chihuahua",
@@ -1559,7 +1559,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "A",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Colegio Interamericano Irapuato",
@@ -1597,7 +1597,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "B",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Instituto Cumbres Chetumal",
@@ -1629,7 +1629,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "C",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Oaxaca",
@@ -1661,7 +1661,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "D",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Andes International School San Luis Potosí",
@@ -1693,7 +1693,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "E",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Instituto Cumbres Veracruz",
@@ -1725,7 +1725,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "F",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Colegio Everest Chihuahua",
@@ -1757,7 +1757,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "G",
    "us": false,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Cumbres International School Querétaro",
@@ -1789,7 +1789,7 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "group": "H",
    "us": true,
-   "read": "2026-11-20 14:44",
+   "read": "2026-11-20 14:50",
    "rows": [
     {
      "team": "Colegio Interamericano Guadalajara",
@@ -1816,6 +1816,1160 @@
      "dg": 0
     }
    ]
+  }
+ ],
+ "playoffs": [
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "16:20",
+   "a": "Prepa Anáhuac Mérida",
+   "b": "Cumbres International School Aguascalientes",
+   "sa": 2,
+   "sb": 2,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "16:20",
+   "a": "Mano Amiga Acapulco",
+   "b": "Prepa Anáhuac México campus Oxford",
+   "sa": 2,
+   "sb": 1,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "a": "Cumbres International School Tijuana",
+   "b": "Prepa Anáhuac Chihuahua",
+   "sa": 4,
+   "sb": 4,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "17:30",
+   "a": "Prepa Anáhuac Monterrey campus San Agustín",
+   "b": "Irish International School Hermosillo",
+   "sa": 2,
+   "sb": 5,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "18:40",
+   "a": "Irish International School Hermosillo",
+   "b": "Prepa Anáhuac Monterrey campus San Agustín",
+   "sa": 2,
+   "sb": 2,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "18:40",
+   "a": "Cumbres International School Cancún",
+   "b": "Colegio Interamericano La Piedad",
+   "sa": 9,
+   "sb": 6,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "a": "Prepa Anáhuac Mérida",
+   "b": "Del Bosque International School",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "a": "Cumbres International School Cancún",
+   "b": "Irish International School Hermosillo",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 13",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "19:50",
+   "a": "Cumbres International School Cancún",
+   "b": "Prepa Anáhuac Durango",
+   "sa": 5,
+   "sb": 5,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "19:50",
+   "a": "Himalaya International School Monterrey",
+   "b": "Cumbres International School Aguascalientes",
+   "sa": 2,
+   "sb": 8,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "20:20",
+   "a": "Prepa Anáhuac México campus Oxford",
+   "b": "Prepa Anáhuac Monterrey campus San Agustín",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 13",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "Cuartos de Final",
+   "date": "2026-11-18",
+   "time": "20:20",
+   "a": "Prepa Anáhuac México campus Cumbres",
+   "b": "Prepa Anáhuac Querétaro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "Semifinales",
+   "date": "2026-11-19",
+   "time": "07:00",
+   "a": "TDLA26-GC1 Pre-Registro",
+   "b": "TDLA26-GC2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "Semifinales",
+   "date": "2026-11-19",
+   "time": "07:00",
+   "a": "Mano Amiga Acapulco",
+   "b": "Irish International School Hermosillo",
+   "sa": 2,
+   "sb": 2,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "Semifinales",
+   "date": "2026-11-19",
+   "time": "08:10",
+   "a": "TDLA26-GC3 Pre-Registro",
+   "b": "TDLA26-GC4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "Semifinales",
+   "date": "2026-11-19",
+   "time": "08:10",
+   "a": "Cumbres International School Cancún",
+   "b": "Cumbres International School Aguascalientes",
+   "sa": 1,
+   "sb": 7,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "Semifinales",
+   "date": "2026-11-19",
+   "time": "08:20",
+   "a": "Prepa Anáhuac Mérida",
+   "b": "Irish International School Hermosillo",
+   "sa": 1,
+   "sb": 2,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "Semifinales",
+   "date": "2026-11-19",
+   "time": "08:20",
+   "a": "Prepa Anáhuac México campus Cumbres",
+   "b": "Prepa Anáhuac México campus Oxford",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 13",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "3er lugar Final",
+   "date": "2026-11-19",
+   "time": "11:40",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "3er lugar Final",
+   "date": "2026-11-19",
+   "time": "12:00",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "Final",
+   "date": "2026-11-19",
+   "time": "12:20",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 13",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 9 femenil 2008",
+   "phase": "3er lugar Final",
+   "date": "2026-11-19",
+   "time": "12:20",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2008–2009",
+   "phase": "Final",
+   "date": "2026-11-19",
+   "time": "12:50",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol rápido varonil 2010–2011",
+   "phase": "Final",
+   "date": "2026-11-19",
+   "time": "13:10",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 6 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "07:00",
+   "a": "TDLA26-A1 Pre-Registro",
+   "b": "TDLA26-B2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 4",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "07:00",
+   "a": "TDLA26-E1 Pre-Registro",
+   "b": "TDLA26-F2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 5",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "07:00",
+   "a": "TDLA26-A1 Pre-Registro",
+   "b": "TDLA26-B2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 3",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "07:00",
+   "a": "TDLA26-A1 Pre-Registro",
+   "b": "TDLA26-MT2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "07:00",
+   "a": "TDLA26-A1 Pre-Registro",
+   "b": "TDLA26-MT4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 1",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "07:00",
+   "a": "TDLA26-E1 Pre-Registro",
+   "b": "TDLA26-C2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 2",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "08:00",
+   "a": "TDLA26-B1 Pre-Registro",
+   "b": "TDLA26-MT1 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "08:00",
+   "a": "TDLA26-A1 Pre-Registro",
+   "b": "TDLA26-B2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "08:10",
+   "a": "TDLA26-B1 Pre-Registro",
+   "b": "TDLA26-A2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 4",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "08:10",
+   "a": "TDLA26-F1 Pre-Registro",
+   "b": "TDLA26-E2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 5",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "08:10",
+   "a": "TDLA26-B1 Pre-Registro",
+   "b": "TDLA26-A2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 3",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "08:10",
+   "a": "TDLA26-B1 Pre-Registro",
+   "b": "TDLA26-MT3 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 1",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "08:10",
+   "a": "TDLA26-F1 Pre-Registro",
+   "b": "TDLA26-D2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 2",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "09:00",
+   "a": "TDLA26-C1 Pre-Registro",
+   "b": "TDLA26-G2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "09:00",
+   "a": "TDLA26-B1 Pre-Registro",
+   "b": "TDLA26-A2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "09:20",
+   "a": "TDLA26-C1 Pre-Registro",
+   "b": "TDLA26-D2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 4",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "09:20",
+   "a": "TDLA26-G1 Pre-Registro",
+   "b": "TDLA26-H2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 5",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "09:20",
+   "a": "TDLA26-C1 Pre-Registro",
+   "b": "TDLA26-D2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 3",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "09:20",
+   "a": "TDLA26-C1 Pre-Registro",
+   "b": "TDLA26-MT2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 1",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "09:20",
+   "a": "TDLA26-A2 Pre-Registro",
+   "b": "TDLA26-E2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 2",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "10:00",
+   "a": "TDLA26-D1 Pre-Registro",
+   "b": "TDLA26-F2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "10:00",
+   "a": "TDLA26-C1 Pre-Registro",
+   "b": "TDLA26-D2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "10:30",
+   "a": "TDLA26-D1 Pre-Registro",
+   "b": "TDLA26-C2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 4",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "10:30",
+   "a": "TDLA26-H1 Pre-Registro",
+   "b": "TDLA26-G2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 5",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "10:30",
+   "a": "TDLA26-D1 Pre-Registro",
+   "b": "TDLA26-C2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 3",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "10:30",
+   "a": "TDLA26-D1 Pre-Registro",
+   "b": "TDLA26-MT1 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 1",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "10:30",
+   "a": "TDLA26-B2 Pre-Registro",
+   "b": "TDLA26-F2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 2",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "11:00",
+   "a": "TDLA26-E1 Pre-Registro",
+   "b": "TDLA26-E2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "11:00",
+   "a": "TDLA26-D1 Pre-Registro",
+   "b": "TDLA26-C2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "11:40",
+   "a": "TDLA26-E1 Pre-Registro",
+   "b": "TDLA26-F2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 1",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "11:40",
+   "a": "TDLA26-G1 Pre-Registro",
+   "b": "TDLA26-H2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 2",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "12:00",
+   "a": "TDLA26-F1 Pre-Registro",
+   "b": "TDLA26-D2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "12:50",
+   "a": "TDLA26-F1 Pre-Registro",
+   "b": "TDLA26-E2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 1",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "12:50",
+   "a": "TDLA26-H1 Pre-Registro",
+   "b": "TDLA26-G2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 2",
+   "venue": "Anáhuac"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "13:00",
+   "a": "TDLA26-G1 Pre-Registro",
+   "b": "TDLA26-C2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "14:00",
+   "a": "TDLA26-GO1 Pre-Registro",
+   "b": "TDLA26-GO2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 22",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Octavos de Final Octavos",
+   "date": "2026-11-23",
+   "time": "14:00",
+   "a": "TDLA26-A2 Pre-Registro",
+   "b": "TDLA26-B2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 26",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "15:10",
+   "a": "TDLA26-GO3 Pre-Registro",
+   "b": "TDLA26-GO4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 22",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "16:00",
+   "a": "TDLA26-GO1 Pre-Registro",
+   "b": "TDLA26-GO2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 25",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "Semifinal",
+   "date": "2026-11-23",
+   "time": "16:00",
+   "a": "TDLA26-GC1 Pre-Registro",
+   "b": "TDLA26-GC2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "16:20",
+   "a": "TDLA26-GO5 Pre-Registro",
+   "b": "TDLA26-GO6 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 22",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "17:00",
+   "a": "TDLA26-GO3 Pre-Registro",
+   "b": "TDLA26-GO4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 25",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "Semifinal",
+   "date": "2026-11-23",
+   "time": "17:00",
+   "a": "TDLA26-GC3 Pre-Registro",
+   "b": "TDLA26-GC4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "17:30",
+   "a": "TDLA26-GO7 Pre-Registro",
+   "b": "TDLA26-GO8 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 22",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "18:00",
+   "a": "TDLA26-GO1 Pre-Registro",
+   "b": "TDLA26-GO2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"A\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "18:00",
+   "a": "TDLA26-GO5 Pre-Registro",
+   "b": "TDLA26-GO6 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"B\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "18:00",
+   "a": "TDLA26-GO5 Pre-Registro",
+   "b": "TDLA26-GO6 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 25",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "18:30",
+   "a": "TDLA26-GO3 Pre-Registro",
+   "b": "TDLA26-GO4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 10",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "18:30",
+   "a": "TDLA26-GO1 Pre-Registro",
+   "b": "TDLA26-GO2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "19:00",
+   "a": "TDLA26-GO3 Pre-Registro",
+   "b": "TDLA26-GO4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"A\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "19:00",
+   "a": "TDLA26-GO7 Pre-Registro",
+   "b": "TDLA26-GO8 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"B\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "19:00",
+   "a": "TDLA26-GO7 Pre-Registro",
+   "b": "TDLA26-GO8 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 25",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "19:30",
+   "a": "TDLA26-GO7 Pre-Registro",
+   "b": "TDLA26-GO8 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 10",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Cuartos de Final Cuartos",
+   "date": "2026-11-23",
+   "time": "19:30",
+   "a": "TDLA26-GO5 Pre-Registro",
+   "b": "TDLA26-GO6 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "07:00",
+   "a": "TDLA26-GC1 Pre-Registro",
+   "b": "TDLA26-GC2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 22",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "08:00",
+   "a": "TDLA26-GC1 Pre-Registro",
+   "b": "TDLA26-GC2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"A\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "08:00",
+   "a": "TDLA26-GC3 Pre-Registro",
+   "b": "TDLA26-GC4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"B\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "08:00",
+   "a": "TDLA26-GC3 Pre-Registro",
+   "b": "TDLA26-GC4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 10",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "08:00",
+   "a": "TDLA26-GC1 Pre-Registro",
+   "b": "TDLA26-GC2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "08:10",
+   "a": "TDLA26-GC3 Pre-Registro",
+   "b": "TDLA26-GC4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 22",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "09:00",
+   "a": "TDLA26-GC1 Pre-Registro",
+   "b": "TDLA26-GC2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"A\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Semifinal",
+   "date": "2026-11-24",
+   "time": "09:00",
+   "a": "TDLA26-GC3 Pre-Registro",
+   "b": "TDLA26-GC4 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"B\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "3er lugar Final",
+   "date": "2026-11-24",
+   "time": "09:00",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2020–2021",
+   "phase": "Final",
+   "date": "2026-11-24",
+   "time": "10:00",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Cancha 15 FR",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "3er lugar Final",
+   "date": "2026-11-24",
+   "time": "12:00",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"A\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2014–2015",
+   "phase": "Final",
+   "date": "2026-11-24",
+   "time": "12:00",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"B\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "Final",
+   "date": "2026-11-24",
+   "time": "12:20",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 10",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2018–2019",
+   "phase": "3er lugar Final",
+   "date": "2026-11-24",
+   "time": "12:20",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 9",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "3er lugar Final",
+   "date": "2026-11-24",
+   "time": "13:00",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"A\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2016–2017",
+   "phase": "Final",
+   "date": "2026-11-24",
+   "time": "13:00",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo Pista \"B\"",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "Final",
+   "date": "2026-11-24",
+   "time": "14:00",
+   "a": "TDLA26-GS1 Pre-Registro",
+   "b": "TDLA26-GS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 13",
+   "venue": "Andes"
+  },
+  {
+   "cat": "Futbol 7 varonil 2012–2013",
+   "phase": "3er lugar Final",
+   "date": "2026-11-24",
+   "time": "14:00",
+   "a": "TDLA26-PS1 Pre-Registro",
+   "b": "TDLA26-PS2 Pre-Registro",
+   "sa": null,
+   "sb": null,
+   "field": "Campo 22",
+   "venue": "Andes"
   }
  ]
 }
