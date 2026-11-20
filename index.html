@@ -78,6 +78,15 @@ header{background:var(--ink);color:var(--white);padding:20px 0 0}
 .gtab[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:var(--white)}
 .gtab .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-left:5px;vertical-align:middle}
 .gtab:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.ko-round{padding:10px 14px 4px;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+.ko-m{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:8px 14px;border-top:1px solid var(--line);font-size:14px}
+.ko-m .t{display:flex;justify-content:space-between;gap:10px}
+.ko-m .t span:last-child{font-family:var(--display);font-weight:800;font-variant-numeric:tabular-nums}
+.ko-m .t.win{font-weight:700}
+.ko-m .t.us{background:#FEF3C2;margin:0 -6px;padding:0 6px;border-radius:4px}
+.ko-m em{font-style:normal;color:var(--slate)}
+.ko-m .when{grid-column:1/-1;font-size:11px;color:var(--slate)}
+.ko-m .rows{grid-column:1/-1;display:grid;gap:2px}
 .grp.ko{background:var(--gold);color:var(--ink)}
 .grp{background:var(--mist);color:var(--ink);border-radius:6px;padding:1px 6px;font-size:11px}
 .rival{font-weight:600;font-size:15px;margin-top:2px}
@@ -178,6 +187,9 @@ footer{margin:32px 0 40px;font-size:12px;color:var(--slate);display:grid;gap:6px
 
   <h2 class="section-title">Rosters</h2>
   <div class="tables" id="rosters"></div>
+
+  <h2 class="section-title">Eliminatorias</h2>
+  <div class="tables" id="playoffs"></div>
 
   <h2 class="section-title">Tablas de posiciones</h2>
   <div class="tables" id="tables"></div>
@@ -308,6 +320,32 @@ function render(){
       return `<details class="tbl"><summary>${esc(shortCat(t.cat))}<span>${ps.length} jugadores · ${tg} goles</span></summary><div class="tbl-scroll"><table>
       <thead><tr><th></th><th>Jugador</th><th>Goles</th><th>Tarjetas</th></tr></thead><tbody>${rows}</tbody></table></div>
       <div class="roster-meta">Roster, goles y tarjetas oficiales de zione.</div></details>`;
+    }).join("");
+  }
+
+  // Eliminatorias
+  const PO=DATA.playoffs||[];
+  const ORD=p=>{const t=p.toLowerCase();return /octav/.test(t)?1:/cuart/.test(t)?2:/semi/.test(t)?3:/tercer|3er/.test(t)?4:/final/.test(t)?5:0;};
+  const poEl=document.getElementById("playoffs");
+  if(!PO.length){poEl.innerHTML=`<div class="empty">Aún no hay partidos de eliminatoria.</div>`;}
+  else{
+    const pc=new Map(); for(const m of PO){ if(!pc.has(m.cat)) pc.set(m.cat,[]); pc.get(m.cat).push(m); }
+    const order=[...pc.keys()].sort((a,b)=>{const ia=cats.indexOf(a),ib=cats.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib);});
+    poEl.innerHTML=order.map(cat=>{
+      const ms=pc.get(cat); const rounds=[...new Set(ms.map(m=>phaseTxt(m.phase)))].sort((a,b)=>ORD(a)-ORD(b));
+      const hasUs=ms.some(m=>m.a===US||m.b===US);
+      const body=rounds.map(r=>`<div class="ko-round">${esc(r)}</div>`+ms.filter(m=>phaseTxt(m.phase)===r).map(m=>{
+        const played=m.sa!=null&&m.sb!=null; const t=fmt12(m.time), di=dayInfo(m.date);
+        const aw=played&&(m.sa>m.sb||(m.sa===m.sb&&m.pa!=null&&m.pa>m.pb)); const bw=played&&(m.sb>m.sa||(m.sa===m.sb&&m.pb!=null&&m.pb>m.pa));
+        const nm=n=>{ if(n===US) return "Cumbres Cancún"; const k=String(n).replace(/\s*Pre-?Registro\s*/i,"").replace(/^TDLA\d*-/i,"").trim();
+          if(k!==String(n).trim()){ const g=k.match(/^([A-H])(\d)$/); if(g) return `<em>${g[2]}º del grupo ${g[1]}</em>`; const mt=k.match(/^MT(\d)$/i); if(mt) return `<em>Mejor ${mt[1]}º lugar</em>`;
+            const gp=k.match(/^([GP])([OCSF])(\d)$/i); if(gp){const R={O:"octavos",C:"cuartos",S:"semifinal",F:"final"}[gp[2].toUpperCase()];return `<em>${gp[1].toUpperCase()==="G"?"Ganador":"Perdedor"} ${R} ${gp[3]}</em>`;} return `<em>${esc(k)}</em>`; }
+          return esc(n); };
+        const sc=(v,p)=>played?`${v}${p!=null?` <small>(${p})</small>`:""}`:"";
+        return `<div class="ko-m"><div class="rows"><div class="t${aw?" win":""}${m.a===US?" us":""}"><span>${nm(m.a)}</span><span>${sc(m.sa,m.pa)}</span></div>
+          <div class="t${bw?" win":""}${m.b===US?" us":""}"><span>${nm(m.b)}</span><span>${sc(m.sb,m.pb)}</span></div></div>
+          <div class="when">${di.dow} ${di.n} · ${t.hm} ${t.ap} · ${esc(m.field)}${played?"":" · Por jugar"}</div></div>`;}).join("")).join("");
+      return `<details class="tbl"${hasUs?" open":""}><summary>${esc(shortCat(cat))}<span>${ms.filter(m=>m.sa!=null).length}/${ms.length} jugados</span></summary>${body}</details>`;
     }).join("");
   }
 

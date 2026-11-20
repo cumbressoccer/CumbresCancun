@@ -147,19 +147,34 @@ for (const [k, info] of grupos) {
     .map(({ team, pj, pts, dg }) => ({ team, pj, pts, dg }));
   standings.push({ cat: info.cat, group: info.g, us: info.us, read: leido, rows });
 }
+// Eliminatorias (cuartos, semis, final…) de las categorías donde juega Cumbres Cancún
+const fase = (p) => { const w = String(p.j || p.k).trim().split(/\s+/); const h = w.length / 2;
+  return (Number.isInteger(h) && w.slice(0, h).join(' ') === w.slice(h).join(' ')) ? w.slice(0, h).join(' ') : w.join(' '); };
+const playoffs = rol.partidos
+  .filter(p => p.k && p.k !== 'grupos' && misCats.has(`${p.d}|${p.r}|${p.c}`))
+  .map(p => {
+    const mm = String(p.m || '').match(/^\s*(\d+)\s*-\s*(\d+)/);
+    const pen = String(p.m || '').match(/\(\s*(\d+)\s*-\s*(\d+)\s*\)/);
+    const o = { cat: categoria(p), phase: fase(p), date: p.f, time: p.h, a: nombre(p, 'a'), b: nombre(p, 'b'),
+      sa: mm ? +mm[1] : null, sb: mm ? +mm[2] : null, field: p.l || '', venue: SEDE[p.s] || p.s || '' };
+    if (pen) { o.pa = +pen[1]; o.pb = +pen[2]; }
+    return o;
+  })
+  .sort((x, y) => (x.date + x.time).localeCompare(y.date + y.time));
+
 const orden = matches.map(m => m.cat);
 standings.sort((a, b) => orden.indexOf(a.cat) - orden.indexOf(b.cat) || String(a.group).localeCompare(String(b.group)));
 
 const ahora = puebla(new Date()).iso;
-const contenido = JSON.stringify({ matches, standings });
-const antes = anterior ? JSON.stringify({ matches: anterior.matches, standings: anterior.standings }) : '';
+const contenido = JSON.stringify({ matches, standings, playoffs });
+const antes = anterior ? JSON.stringify({ matches: anterior.matches, standings: anterior.standings, playoffs: anterior.playoffs || [] }) : '';
 const data = {
   updated: contenido === antes && anterior?.updated ? anterior.updated : ahora,
   checked: ahora,
   source: 'https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios',
   rol_leido: rol.leido || null,
   zione_marcadores: deZione,
-  matches, standings
+  matches, standings, playoffs
 };
 fs.writeFileSync('data.json', JSON.stringify(data, null, 1) + '\n');
 console.log(`OK: ${matches.length} partidos, ${matches.filter(m => m.gf !== null).length} con marcador, ${standings.length} tablas. Cambió: ${contenido !== antes}`);

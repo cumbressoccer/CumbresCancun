@@ -42,7 +42,7 @@ jobs:
           vuelta=0
           while :; do
             git pull -q --rebase origin main || true
-            antes=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings]))" 2>/dev/null || echo "")
+            antes=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings,d.playoffs]))" 2>/dev/null || echo "")
             # Rosters de zione cada 15 minutos (una de cada 3 vueltas)
             if [ $(( vuelta % 3 )) -eq 0 ]; then
               (node scripts/rosters.mjs > estado_rosters.txt 2>&1 || echo "ERROR exit $?" >> estado_rosters.txt); date -u >> estado_rosters.txt; cat estado_rosters.txt
@@ -54,7 +54,7 @@ jobs:
             fi
             vuelta=$(( vuelta + 1 ))
             if node scripts/actualizar.mjs; then
-              despues=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings]))")
+              despues=$(node -e "const d=require('./data.json');console.log(JSON.stringify([d.matches,d.standings,d.playoffs]))")
               ahora=$(date +%s)
               if [ "$antes" != "$despues" ] || [ $(( ahora - ultimo_push )) -ge 1200 ]; then
                 git add data.json
