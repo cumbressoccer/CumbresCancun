@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T13:29:18-06:00",
- "checked": "2026-11-20T13:29:18-06:00",
+ "updated": "2026-11-20T13:35:23-06:00",
+ "checked": "2026-11-20T13:35:23-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-20T19:28:28.190Z",
- "zione_marcadores": 5,
+ "zione_marcadores": 8,
  "matches": [
   {
    "date": "2026-11-16",
@@ -159,8 +159,8 @@
    "rival": "Highlands International School México",
    "field": "Cancha 6 FR",
    "venue": "Andes",
-   "gf": null,
-   "ga": null
+   "gf": 11,
+   "ga": 2
   },
   {
    "date": "2026-11-20",
@@ -702,22 +702,16 @@
    "read": "2026-11-20 13:28",
    "rows": [
     {
+     "team": "Cumbres International School Cancún",
+     "pj": 1,
+     "pts": 3,
+     "dg": 9
+    },
+    {
      "team": "Instituto Andes Culiacán",
      "pj": 1,
      "pts": 3,
      "dg": 2
-    },
-    {
-     "team": "Cumbres International School Cancún",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Highlands International School México",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
     },
     {
      "team": "Irish International School Monterrey",
@@ -730,6 +724,12 @@
      "pj": 1,
      "pts": 0,
      "dg": -2
+    },
+    {
+     "team": "Highlands International School México",
+     "pj": 1,
+     "pts": 0,
+     "dg": -9
     }
    ]
   },
@@ -1588,28 +1588,28 @@
    "read": "2026-11-20 13:28",
    "rows": [
     {
+     "team": "Instituto Cumbres Chetumal",
+     "pj": 1,
+     "pts": 3,
+     "dg": 5
+    },
+    {
      "team": "Cumbres International School Tijuana",
      "pj": 1,
      "pts": 3,
      "dg": 2
     },
     {
-     "team": "Instituto Cumbres Chetumal",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Mano Amiga Acapulco",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
      "team": "Irish International School Hermosillo",
      "pj": 1,
      "pts": 0,
      "dg": -2
+    },
+    {
+     "team": "Mano Amiga Acapulco",
+     "pj": 1,
+     "pts": 0,
+     "dg": -5
     }
    ]
   },
