@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T14:12:12-06:00",
- "checked": "2026-11-20T14:12:12-06:00",
+ "updated": "2026-11-20T14:17:17-06:00",
+ "checked": "2026-11-20T14:17:17-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-20T20:08:28.315Z",
- "zione_marcadores": 15,
+ "zione_marcadores": 20,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1015,15 +1015,15 @@
     },
     {
      "team": "Instituto Andes Tuxtla",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "pj": 1,
+     "pts": 3,
+     "dg": 6
     },
     {
      "team": "Instituto Cumbres Bosques",
-     "pj": 0,
+     "pj": 1,
      "pts": 0,
-     "dg": 0
+     "dg": -6
     },
     {
      "team": "Mano Amiga Puebla",
@@ -1143,8 +1143,20 @@
    "rows": [
     {
      "team": "Cumbres International School Mérida",
-     "pj": 0,
-     "pts": 0,
+     "pj": 1,
+     "pts": 3,
+     "dg": 2
+    },
+    {
+     "team": "Kilimanjaro International School Monterrey",
+     "pj": 1,
+     "pts": 1,
+     "dg": 0
+    },
+    {
+     "team": "Pinecrest International School",
+     "pj": 1,
+     "pts": 1,
      "dg": 0
     },
     {
@@ -1155,21 +1167,9 @@
     },
     {
      "team": "Instituto Cumbres León",
-     "pj": 0,
+     "pj": 1,
      "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Kilimanjaro International School Monterrey",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
-    },
-    {
-     "team": "Pinecrest International School",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "dg": -2
     }
    ]
   },
@@ -1653,9 +1653,9 @@
    "rows": [
     {
      "team": "Andes International School San Luis Potosí",
-     "pj": 0,
-     "pts": 0,
-     "dg": 0
+     "pj": 1,
+     "pts": 3,
+     "dg": 6
     },
     {
      "team": "Instituto Andes Culiacán",
@@ -1671,9 +1671,9 @@
     },
     {
      "team": "Irish International School Monterrey",
-     "pj": 0,
+     "pj": 1,
      "pts": 0,
-     "dg": 0
+     "dg": -6
     }
    ]
   },
