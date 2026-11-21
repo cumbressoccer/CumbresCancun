@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-21T17:25:32-06:00",
- "checked": "2026-11-21T17:25:32-06:00",
+ "updated": "2026-11-21T17:31:43-06:00",
+ "checked": "2026-11-21T17:31:43-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T23:14:28.291Z",
- "zione_marcadores": 2,
+ "zione_marcadores": 1,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1126,6 +1126,12 @@
      "dg": 16
     },
     {
+     "team": "Oxford School México",
+     "pj": 2,
+     "pts": 3,
+     "dg": -4
+    },
+    {
      "team": "Instituto Cumbres Villahermosa",
      "pj": 2,
      "pts": 3,
@@ -1133,15 +1139,9 @@
     },
     {
      "team": "Instituto Andes Los Mochis",
-     "pj": 1,
+     "pj": 2,
      "pts": 0,
-     "dg": -2
-    },
-    {
-     "team": "Oxford School México",
-     "pj": 1,
-     "pts": 0,
-     "dg": -8
+     "dg": -6
     }
    ]
   },
