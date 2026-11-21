@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-21T13:17:30-06:00",
- "checked": "2026-11-21T13:17:30-06:00",
+ "updated": "2026-11-21T13:23:17-06:00",
+ "checked": "2026-11-21T13:23:17-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T19:14:28.151Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 1,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1228,6 +1228,12 @@
    "read": "2026-11-21 13:14",
    "rows": [
     {
+     "team": "Highlands International School San Salvador",
+     "pj": 2,
+     "pts": 4,
+     "dg": 3
+    },
+    {
      "team": "Mano Amiga Acapulco",
      "pj": 2,
      "pts": 4,
@@ -1235,21 +1241,15 @@
     },
     {
      "team": "Cumbres International School Toluca",
-     "pj": 2,
+     "pj": 3,
      "pts": 3,
-     "dg": 8
+     "dg": 5
     },
     {
      "team": "Instituto Andes Culiacán",
      "pj": 1,
      "pts": 3,
      "dg": 5
-    },
-    {
-     "team": "Highlands International School San Salvador",
-     "pj": 1,
-     "pts": 1,
-     "dg": 0
     },
     {
      "team": "Highlands International School México",
