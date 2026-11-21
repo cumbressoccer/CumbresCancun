@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T17:41:49-06:00",
- "checked": "2026-11-21T17:41:49-06:00",
+ "updated": "2026-11-21T17:47:30-06:00",
+ "checked": "2026-11-21T17:47:30-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T23:14:28.291Z",
  "zione_marcadores": 2,
@@ -1005,14 +1005,14 @@
     },
     {
      "team": "Colegio Everest Chihuahua",
-     "pj": 1,
-     "pts": 0,
+     "pj": 2,
+     "pts": 1,
      "dg": -3
     },
     {
      "team": "Colegio Interamericano Irapuato",
-     "pj": 1,
-     "pts": 0,
+     "pj": 2,
+     "pts": 1,
      "dg": -4
     }
    ]
@@ -1152,16 +1152,16 @@
    "read": "2026-11-21 17:14",
    "rows": [
     {
+     "team": "Instituto Cumbres Morelia",
+     "pj": 3,
+     "pts": 9,
+     "dg": 9
+    },
+    {
      "team": "Highlands International School Monterrey",
      "pj": 3,
      "pts": 7,
      "dg": 10
-    },
-    {
-     "team": "Instituto Cumbres Morelia",
-     "pj": 2,
-     "pts": 6,
-     "dg": 5
     },
     {
      "team": "Cumbres International School Cancún",
@@ -1177,9 +1177,9 @@
     },
     {
      "team": "Instituto Cumbres Bosques",
-     "pj": 3,
+     "pj": 4,
      "pts": 0,
-     "dg": -14
+     "dg": -18
     }
    ]
   },
@@ -1599,9 +1599,9 @@
    "rows": [
     {
      "team": "Colegio Interamericano Irapuato",
-     "pj": 2,
-     "pts": 6,
-     "dg": 7
+     "pj": 3,
+     "pts": 9,
+     "dg": 10
     },
     {
      "team": "Highlands International School México",
@@ -1623,9 +1623,9 @@
     },
     {
      "team": "Instituto Andes Tuxtla",
-     "pj": 3,
+     "pj": 4,
      "pts": 1,
-     "dg": -10
+     "dg": -13
     }
    ]
   },
