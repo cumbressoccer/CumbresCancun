@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-21T16:37:48-06:00",
- "checked": "2026-11-21T16:37:48-06:00",
+ "updated": "2026-11-21T16:43:34-06:00",
+ "checked": "2026-11-21T16:43:34-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T22:36:28.474Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 1,
  "matches": [
   {
    "date": "2026-11-16",
@@ -328,8 +328,8 @@
    "rival": "Cumbres International School Lomas",
    "field": "Campo 5",
    "venue": "Anáhuac",
-   "gf": null,
-   "ga": null
+   "gf": 6,
+   "ga": 4
   },
   {
    "date": "2026-11-21",
@@ -1829,9 +1829,9 @@
    "rows": [
     {
      "team": "Cumbres International School Cancún",
-     "pj": 1,
-     "pts": 3,
-     "dg": 4
+     "pj": 2,
+     "pts": 6,
+     "dg": 6
     },
     {
      "team": "Colegio Interamericano Guadalajara",
@@ -1840,16 +1840,16 @@
      "dg": 3
     },
     {
-     "team": "Cumbres International School Lomas",
-     "pj": 1,
-     "pts": 0,
-     "dg": -3
-    },
-    {
      "team": "Highlands International School Monterrey",
      "pj": 1,
      "pts": 0,
      "dg": -4
+    },
+    {
+     "team": "Cumbres International School Lomas",
+     "pj": 2,
+     "pts": 0,
+     "dg": -5
     }
    ]
   }
