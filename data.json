@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T18:23:22-06:00",
- "checked": "2026-11-20T18:23:22-06:00",
+ "updated": "2026-11-20T18:29:10-06:00",
+ "checked": "2026-11-20T18:29:10-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T00:08:28.720Z",
- "zione_marcadores": 3,
+ "zione_marcadores": 4,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1370,16 +1370,16 @@
    "read": "2026-11-20 18:08",
    "rows": [
     {
+     "team": "Instituto Cumbres Irapuato",
+     "pj": 2,
+     "pts": 6,
+     "dg": 12
+    },
+    {
      "team": "Pinecrest International School",
      "pj": 1,
      "pts": 3,
      "dg": 13
-    },
-    {
-     "team": "Instituto Cumbres Irapuato",
-     "pj": 1,
-     "pts": 3,
-     "dg": 3
     },
     {
      "team": "Andes International School Puebla",
@@ -1395,9 +1395,9 @@
     },
     {
      "team": "Instituto Cumbres Campeche",
-     "pj": 1,
+     "pj": 2,
      "pts": 0,
-     "dg": -13
+     "dg": -22
     }
    ]
   },
