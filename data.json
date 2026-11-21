@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T18:18:18-06:00",
- "checked": "2026-11-20T18:18:18-06:00",
+ "updated": "2026-11-20T18:23:22-06:00",
+ "checked": "2026-11-20T18:23:22-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T00:08:28.720Z",
- "zione_marcadores": 2,
+ "zione_marcadores": 3,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1166,10 +1166,16 @@
    "read": "2026-11-20 18:08",
    "rows": [
     {
-     "team": "Cumbres International School Mérida",
+     "team": "Cumbres International School Tijuana",
      "pj": 1,
      "pts": 3,
-     "dg": 2
+     "dg": 14
+    },
+    {
+     "team": "Cumbres International School Mérida",
+     "pj": 2,
+     "pts": 3,
+     "dg": -12
     },
     {
      "team": "Kilimanjaro International School Monterrey",
@@ -1181,12 +1187,6 @@
      "team": "Pinecrest International School",
      "pj": 1,
      "pts": 1,
-     "dg": 0
-    },
-    {
-     "team": "Cumbres International School Tijuana",
-     "pj": 0,
-     "pts": 0,
      "dg": 0
     },
     {
