@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-21T08:13:16-06:00",
- "checked": "2026-11-21T08:13:16-06:00",
+ "updated": "2026-11-21T08:34:19-06:00",
+ "checked": "2026-11-21T08:34:19-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T14:08:28.571Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 3,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1534,16 +1534,16 @@
    "read": "2026-11-21 08:08",
    "rows": [
     {
+     "team": "Irish International School Monterrey",
+     "pj": 2,
+     "pts": 6,
+     "dg": 7
+    },
+    {
      "team": "Cumbres International School Saltillo",
      "pj": 1,
      "pts": 3,
      "dg": 5
-    },
-    {
-     "team": "Irish International School Monterrey",
-     "pj": 1,
-     "pts": 3,
-     "dg": 1
     },
     {
      "team": "Oxford School México",
@@ -1553,9 +1553,9 @@
     },
     {
      "team": "Instituto Cumbres Tapachula",
-     "pj": 1,
+     "pj": 2,
      "pts": 0,
-     "dg": -5
+     "dg": -11
     }
    ]
   },
@@ -1605,27 +1605,27 @@
     },
     {
      "team": "Highlands International School México",
-     "pj": 1,
-     "pts": 3,
-     "dg": 2
-    },
-    {
-     "team": "Instituto Andes Tuxtla",
      "pj": 2,
-     "pts": 1,
-     "dg": -2
-    },
-    {
-     "team": "Instituto Andes Los Mochis",
-     "pj": 2,
-     "pts": 1,
-     "dg": -6
+     "pts": 6,
+     "dg": 4
     },
     {
      "team": "Cumbres International School Aguascalientes",
-     "pj": 1,
-     "pts": 0,
-     "dg": -1
+     "pj": 2,
+     "pts": 3,
+     "dg": 7
+    },
+    {
+     "team": "Instituto Andes Los Mochis",
+     "pj": 3,
+     "pts": 1,
+     "dg": -8
+    },
+    {
+     "team": "Instituto Andes Tuxtla",
+     "pj": 3,
+     "pts": 1,
+     "dg": -10
     }
    ]
   },
