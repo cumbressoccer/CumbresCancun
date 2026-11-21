@@ -64,17 +64,17 @@
   "Futbol 7 varonil 2016–2017|Rafael R.": 0,
   "Futbol 7 varonil 2016–2017|Sebastián A.": 0,
   "Futbol 7 varonil 2016–2017|Thiago A.": 0,
-  "Futbol 7 varonil 2018–2019|Alejandro C.": 0,
-  "Futbol 7 varonil 2018–2019|Bernardo G.": 0,
+  "Futbol 7 varonil 2018–2019|Alejandro C.": 2,
+  "Futbol 7 varonil 2018–2019|Bernardo G.": 3,
   "Futbol 7 varonil 2018–2019|Bruno A.": 0,
   "Futbol 7 varonil 2018–2019|Camilo S.": 0,
-  "Futbol 7 varonil 2018–2019|Iker B.": 0,
+  "Futbol 7 varonil 2018–2019|Iker B.": 2,
   "Futbol 7 varonil 2018–2019|Juan Emilio S.": 0,
   "Futbol 7 varonil 2018–2019|Kristian I.": 0,
   "Futbol 7 varonil 2018–2019|Leonardo Joel S.": 0,
   "Futbol 7 varonil 2018–2019|Nicolas G.": 0,
   "Futbol 7 varonil 2018–2019|Santiago C.": 0,
-  "Futbol 7 varonil 2018–2019|Sebastian R.": 0,
+  "Futbol 7 varonil 2018–2019|Sebastian R.": 1,
   "Futbol 7 varonil 2020–2021|Alejandro B.": 0,
   "Futbol 7 varonil 2020–2021|Armando C.": 1,
   "Futbol 7 varonil 2020–2021|Eugenio G.": 0,
@@ -156,6 +156,34 @@
    "cat": "Futbol 7 varonil 2020–2021",
    "player": "Oliver John M.",
    "n": 2
+  },
+  {
+   "date": "2026-11-20",
+   "time": "18:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Alejandro C.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-20",
+   "time": "18:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Bernardo G.",
+   "n": 3
+  },
+  {
+   "date": "2026-11-20",
+   "time": "18:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Iker B.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-20",
+   "time": "18:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Sebastian R.",
+   "n": 1
   }
  ]
 }
