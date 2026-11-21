@@ -33,13 +33,13 @@
   "Futbol rápido varonil 2010–2011|Ricardo O.": 0,
   "Futbol rápido varonil 2010–2011|Santiago M.": 0,
   "Futbol 7 varonil 2012–2013|Alonso A.": 0,
-  "Futbol 7 varonil 2012–2013|David G.": 0,
+  "Futbol 7 varonil 2012–2013|David G.": 3,
   "Futbol 7 varonil 2012–2013|Eduardo F.": 0,
   "Futbol 7 varonil 2012–2013|Franco David G.": 0,
-  "Futbol 7 varonil 2012–2013|Ian T.": 0,
+  "Futbol 7 varonil 2012–2013|Ian T.": 2,
   "Futbol 7 varonil 2012–2013|Iker C.": 0,
   "Futbol 7 varonil 2012–2013|Jerónimo E.": 0,
-  "Futbol 7 varonil 2012–2013|Jimi Alexander L.": 0,
+  "Futbol 7 varonil 2012–2013|Jimi Alexander L.": 1,
   "Futbol 7 varonil 2012–2013|Luis Hernán B.": 0,
   "Futbol 7 varonil 2012–2013|Santiago R.": 0,
   "Futbol 7 varonil 2014–2015|Alejandro R.": 0,
@@ -226,6 +226,27 @@
    "cat": "Futbol 7 varonil 2014–2015",
    "player": "Matías G.",
    "n": 4
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "David G.",
+   "n": 3
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "Ian T.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "Jimi Alexander L.",
+   "n": 1
   }
  ]
 }
