@@ -55,13 +55,13 @@
   "Futbol 7 varonil 2016–2017|Derek G.": 0,
   "Futbol 7 varonil 2016–2017|Diego R.": 0,
   "Futbol 7 varonil 2016–2017|Edgar R.": 0,
-  "Futbol 7 varonil 2016–2017|Eduardo C.": 0,
+  "Futbol 7 varonil 2016–2017|Eduardo C.": 1,
   "Futbol 7 varonil 2016–2017|Javier C.": 0,
-  "Futbol 7 varonil 2016–2017|Jeronimo D.": 0,
+  "Futbol 7 varonil 2016–2017|Jeronimo D.": 1,
   "Futbol 7 varonil 2016–2017|Mateo G.": 0,
   "Futbol 7 varonil 2016–2017|Matías Benjamín L.": 0,
-  "Futbol 7 varonil 2016–2017|Norman Alexander M.": 0,
-  "Futbol 7 varonil 2016–2017|Rafael R.": 0,
+  "Futbol 7 varonil 2016–2017|Norman Alexander M.": 1,
+  "Futbol 7 varonil 2016–2017|Rafael R.": 2,
   "Futbol 7 varonil 2016–2017|Sebastián A.": 0,
   "Futbol 7 varonil 2016–2017|Thiago A.": 0,
   "Futbol 7 varonil 2018–2019|Alejandro C.": 2,
@@ -184,6 +184,34 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "player": "Sebastian R.",
    "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Eduardo C.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Jeronimo D.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Norman Alexander M.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Rafael R.",
+   "n": 2
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:16:49-06:00",
+ "updated": "2026-11-21T10:36:33-06:00",
  "source": "zione (TDLA 2026)",
  "teams": [
   {
@@ -423,7 +423,7 @@
     {
      "name": "Eduardo C.",
      "gk": false,
-     "goals": 0,
+     "goals": 1,
      "yellow": 0,
      "red": 0
     },
@@ -437,7 +437,7 @@
     {
      "name": "Jeronimo D.",
      "gk": false,
-     "goals": 0,
+     "goals": 1,
      "yellow": 0,
      "red": 0
     },
@@ -458,14 +458,14 @@
     {
      "name": "Norman Alexander M.",
      "gk": false,
-     "goals": 0,
+     "goals": 1,
      "yellow": 0,
      "red": 0
     },
     {
      "name": "Rafael R.",
      "gk": true,
-     "goals": 0,
+     "goals": 2,
      "yellow": 0,
      "red": 0
     },
