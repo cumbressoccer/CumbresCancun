@@ -47,10 +47,10 @@
   "Futbol 7 varonil 2014–2015|Diego B.": 0,
   "Futbol 7 varonil 2014–2015|Diego O.": 0,
   "Futbol 7 varonil 2014–2015|Emilio Chafic C.": 0,
-  "Futbol 7 varonil 2014–2015|Jorge G.": 0,
+  "Futbol 7 varonil 2014–2015|Jorge G.": 1,
   "Futbol 7 varonil 2014–2015|Matias A.": 0,
   "Futbol 7 varonil 2014–2015|Matias O.": 0,
-  "Futbol 7 varonil 2014–2015|Matías G.": 0,
+  "Futbol 7 varonil 2014–2015|Matías G.": 4,
   "Futbol 7 varonil 2014–2015|Santiago A.": 0,
   "Futbol 7 varonil 2016–2017|Derek G.": 0,
   "Futbol 7 varonil 2016–2017|Diego R.": 0,
@@ -212,6 +212,20 @@
    "cat": "Futbol 7 varonil 2016–2017",
    "player": "Rafael R.",
    "n": 2
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2014–2015",
+   "player": "Jorge G.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2014–2015",
+   "player": "Matías G.",
+   "n": 4
   }
  ]
 }

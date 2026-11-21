@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:36:33-06:00",
+ "updated": "2026-11-21T10:52:26-06:00",
  "source": "zione (TDLA 2026)",
  "teams": [
   {
@@ -361,7 +361,7 @@
     {
      "name": "Jorge G.",
      "gk": false,
-     "goals": 0,
+     "goals": 1,
      "yellow": 0,
      "red": 0
     },
@@ -382,7 +382,7 @@
     {
      "name": "Matías G.",
      "gk": false,
-     "goals": 0,
+     "goals": 4,
      "yellow": 0,
      "red": 0
     },
