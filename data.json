@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-21T17:20:27-06:00",
- "checked": "2026-11-21T17:20:27-06:00",
+ "updated": "2026-11-21T17:25:32-06:00",
+ "checked": "2026-11-21T17:25:32-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-21T23:14:28.291Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 2,
  "matches": [
   {
    "date": "2026-11-16",
@@ -317,8 +317,8 @@
    "rival": "Mano Amiga Puebla",
    "field": "Cancha 15 FR",
    "venue": "Andes",
-   "gf": null,
-   "ga": null
+   "gf": 5,
+   "ga": 1
   },
   {
    "date": "2026-11-21",
@@ -750,16 +750,16 @@
    "read": "2026-11-21 17:14",
    "rows": [
     {
+     "team": "Cumbres International School Cancún",
+     "pj": 3,
+     "pts": 9,
+     "dg": 19
+    },
+    {
      "team": "Instituto Andes Culiacán",
      "pj": 3,
      "pts": 9,
      "dg": 5
-    },
-    {
-     "team": "Cumbres International School Cancún",
-     "pj": 2,
-     "pts": 6,
-     "dg": 15
     },
     {
      "team": "Irish International School Monterrey",
@@ -775,9 +775,9 @@
     },
     {
      "team": "Mano Amiga Puebla",
-     "pj": 3,
+     "pj": 4,
      "pts": 0,
-     "dg": -4
+     "dg": -8
     }
    ]
   },
@@ -795,9 +795,9 @@
     },
     {
      "team": "Andes International School Puebla",
-     "pj": 2,
-     "pts": 3,
-     "dg": -1
+     "pj": 3,
+     "pts": 6,
+     "dg": 0
     },
     {
      "team": "Cumbres International School Oaxaca",
@@ -807,9 +807,9 @@
     },
     {
      "team": "Himalaya International School Monterrey",
-     "pj": 2,
+     "pj": 3,
      "pts": 1,
-     "dg": -5
+     "dg": -6
     },
     {
      "team": "Cumbres International School San Javier",
