@@ -76,13 +76,13 @@
   "Futbol 7 varonil 2018–2019|Santiago C.": 0,
   "Futbol 7 varonil 2018–2019|Sebastian R.": 1,
   "Futbol 7 varonil 2020–2021|Alejandro B.": 0,
-  "Futbol 7 varonil 2020–2021|Armando C.": 1,
+  "Futbol 7 varonil 2020–2021|Armando C.": 2,
   "Futbol 7 varonil 2020–2021|Eugenio G.": 0,
   "Futbol 7 varonil 2020–2021|Iván F.": 0,
   "Futbol 7 varonil 2020–2021|José Luis M.": 0,
   "Futbol 7 varonil 2020–2021|José Pablo D.": 0,
-  "Futbol 7 varonil 2020–2021|Marcelo G.": 3,
-  "Futbol 7 varonil 2020–2021|Oliver John M.": 2,
+  "Futbol 7 varonil 2020–2021|Marcelo G.": 4,
+  "Futbol 7 varonil 2020–2021|Oliver John M.": 5,
   "Futbol 7 varonil 2020–2021|Patricio A.": 0,
   "Futbol 7 varonil 2020–2021|Patricio L.": 0
  },
@@ -247,6 +247,27 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "player": "Jimi Alexander L.",
    "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Armando C.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Marcelo G.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Oliver John M.",
+   "n": 3
   }
  ]
 }

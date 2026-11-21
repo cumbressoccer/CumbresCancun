@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:59:26-06:00",
+ "updated": "2026-11-21T17:31:40-06:00",
  "source": "zione (TDLA 2026)",
  "teams": [
   {
@@ -582,7 +582,7 @@
     {
      "name": "Armando C.",
      "gk": true,
-     "goals": 1,
+     "goals": 2,
      "yellow": 0,
      "red": 0
     },
@@ -617,14 +617,14 @@
     {
      "name": "Marcelo G.",
      "gk": false,
-     "goals": 3,
+     "goals": 4,
      "yellow": 0,
      "red": 0
     },
     {
      "name": "Oliver John M.",
      "gk": false,
-     "goals": 2,
+     "goals": 5,
      "yellow": 0,
      "red": 0
     },
