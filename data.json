@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-22T16:03:02-06:00",
- "checked": "2026-11-22T16:03:02-06:00",
+ "updated": "2026-11-22T16:08:43-06:00",
+ "checked": "2026-11-22T16:08:43-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-22T21:34:28.242Z",
- "zione_marcadores": 1,
+ "zione_marcadores": 2,
  "matches": [
   {
    "date": "2026-11-16",
@@ -897,21 +897,21 @@
    "rows": [
     {
      "team": "Cumbres International School Tijuana",
-     "pj": 2,
-     "pts": 6,
-     "dg": 14
-    },
-    {
-     "team": "Cumbres International School Guadalajara",
-     "pj": 2,
-     "pts": 3,
-     "dg": 3
+     "pj": 3,
+     "pts": 9,
+     "dg": 20
     },
     {
      "team": "Cumbres International School Mérida",
      "pj": 2,
      "pts": 3,
      "dg": 1
+    },
+    {
+     "team": "Cumbres International School Guadalajara",
+     "pj": 3,
+     "pts": 3,
+     "dg": -3
     },
     {
      "team": "Irish Institute México",
