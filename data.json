@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-22T12:02:34-06:00",
- "checked": "2026-11-22T12:02:34-06:00",
+ "updated": "2026-11-22T12:07:38-06:00",
+ "checked": "2026-11-22T12:07:38-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-22T18:00:28.272Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 1,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1331,15 +1331,15 @@
    "rows": [
     {
      "team": "The Highlands School Quito",
-     "pj": 2,
-     "pts": 6,
-     "dg": 17
+     "pj": 3,
+     "pts": 9,
+     "dg": 18
     },
     {
      "team": "Irish International School Monterrey",
-     "pj": 2,
+     "pj": 3,
      "pts": 6,
-     "dg": 16
+     "dg": 15
     },
     {
      "team": "Cumbres International School Saltillo",
