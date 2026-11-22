@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:15:00-06:00",
+ "updated": "2026-11-22T12:40:00-06:00",
  "goals": [
   {
    "date": "2026-11-16",
@@ -203,6 +203,118 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "player": "Sebastian R.",
    "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2014–2015",
+   "player": "Jorge G.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2014–2015",
+   "player": "Matías G.",
+   "n": 4
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Eduardo C.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Jeronimo D.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Norman Alexander M.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "09:20",
+   "cat": "Futbol 7 varonil 2016–2017",
+   "player": "Rafael R.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "David G.",
+   "n": 3
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "Ian T.",
+   "n": 2
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:10",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "Jimi Alexander L.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Armando C.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Marcelo G.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "15:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Oliver John M.",
+   "n": 3
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Alejandro C.",
+   "n": 4
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Bernardo G.",
+   "n": 3
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Camilo S.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-21",
+   "time": "17:00",
+   "cat": "Futbol 7 varonil 2018–2019",
+   "player": "Iker B.",
+   "n": 3
   }
  ]
 }
