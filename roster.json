@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:44:52-06:00",
+ "updated": "2026-11-22T16:56:03-06:00",
  "source": "zione (TDLA 2026)",
  "teams": [
   {
@@ -278,22 +278,22 @@
     {
      "name": "Ian T.",
      "gk": false,
-     "goals": 2,
-     "yellow": 0,
+     "goals": 5,
+     "yellow": 1,
      "red": 0
     },
     {
      "name": "Iker C.",
      "gk": true,
      "goals": 0,
-     "yellow": 0,
+     "yellow": 1,
      "red": 0
     },
     {
      "name": "Jerónimo E.",
      "gk": false,
      "goals": 0,
-     "yellow": 0,
+     "yellow": 1,
      "red": 0
     },
     {
