@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-22T16:29:34-06:00",
- "checked": "2026-11-22T16:29:34-06:00",
+ "updated": "2026-11-22T16:40:17-06:00",
+ "checked": "2026-11-22T16:40:17-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-22T22:26:28.389Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 2,
  "matches": [
   {
    "date": "2026-11-16",
@@ -372,8 +372,8 @@
    "rival": "Pinecrest International School",
    "field": "Campo 25",
    "venue": "Andes",
-   "gf": null,
-   "ga": null
+   "gf": 2,
+   "ga": 4
   },
   {
    "date": "2026-11-22",
@@ -1241,14 +1241,14 @@
     },
     {
      "team": "Cumbres International School Toluca",
-     "pj": 3,
-     "pts": 3,
+     "pj": 4,
+     "pts": 4,
      "dg": 5
     },
     {
      "team": "Instituto Andes Culiacán",
-     "pj": 3,
-     "pts": 3,
+     "pj": 4,
+     "pts": 4,
      "dg": 3
     },
     {
@@ -1395,9 +1395,9 @@
    "rows": [
     {
      "team": "Pinecrest International School",
-     "pj": 3,
-     "pts": 7,
-     "dg": 22
+     "pj": 4,
+     "pts": 10,
+     "dg": 24
     },
     {
      "team": "Instituto Cumbres Irapuato",
@@ -1407,9 +1407,9 @@
     },
     {
      "team": "Cumbres International School Cancún",
-     "pj": 3,
+     "pj": 4,
      "pts": 6,
-     "dg": 15
+     "dg": 13
     },
     {
      "team": "Andes International School Puebla",
