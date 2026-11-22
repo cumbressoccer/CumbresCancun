@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-22T10:20:49-06:00",
- "checked": "2026-11-22T10:42:26-06:00",
+ "updated": "2026-11-22T10:52:35-06:00",
+ "checked": "2026-11-22T10:52:35-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-22T16:16:28.345Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 1,
  "matches": [
   {
    "date": "2026-11-16",
@@ -1669,14 +1669,14 @@
    "rows": [
     {
      "team": "Cumbres International School Toluca",
-     "pj": 2,
-     "pts": 6,
+     "pj": 3,
+     "pts": 7,
      "dg": 5
     },
     {
      "team": "Cumbres International School Oaxaca",
-     "pj": 2,
-     "pts": 3,
+     "pj": 3,
+     "pts": 4,
      "dg": 2
     },
     {
