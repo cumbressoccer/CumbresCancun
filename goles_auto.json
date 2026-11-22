@@ -82,7 +82,7 @@
   "Futbol 7 varonil 2020–2021|José Luis M.": 0,
   "Futbol 7 varonil 2020–2021|José Pablo D.": 0,
   "Futbol 7 varonil 2020–2021|Marcelo G.": 4,
-  "Futbol 7 varonil 2020–2021|Oliver John M.": 5,
+  "Futbol 7 varonil 2020–2021|Oliver John M.": 7,
   "Futbol 7 varonil 2020–2021|Patricio A.": 0,
   "Futbol 7 varonil 2020–2021|Patricio L.": 0
  },
@@ -296,6 +296,13 @@
    "cat": "Futbol 7 varonil 2018–2019",
    "player": "Iker B.",
    "n": 3
+  },
+  {
+   "date": "2026-11-22",
+   "time": "11:00",
+   "cat": "Futbol 7 varonil 2020–2021",
+   "player": "Oliver John M.",
+   "n": 2
   }
  ]
 }
