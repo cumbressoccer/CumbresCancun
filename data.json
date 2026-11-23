@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T15:47:32-06:00",
- "checked": "2026-11-23T15:47:32-06:00",
+ "updated": "2026-11-23T15:53:14-06:00",
+ "checked": "2026-11-23T15:53:14-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-23T21:46:28.255Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 1,
  "matches": [
   {
    "date": "2026-11-16",
@@ -453,8 +453,8 @@
    "rival": "Cumbres International School Oaxaca",
    "field": "Campo 26",
    "venue": "Andes",
-   "gf": null,
-   "ga": null,
+   "gf": 2,
+   "ga": 2,
    "phase": "Octavos de Final Octavos"
   },
   {
@@ -2678,8 +2678,8 @@
    "time": "14:00",
    "a": "Cumbres International School Cancún",
    "b": "Cumbres International School Oaxaca",
-   "sa": null,
-   "sb": null,
+   "sa": 2,
+   "sb": 2,
    "field": "Campo 26",
    "venue": "Andes"
   },
