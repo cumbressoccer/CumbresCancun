@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T09:09:10-06:00",
- "checked": "2026-11-23T09:09:10-06:00",
+ "updated": "2026-11-23T09:14:15-06:00",
+ "checked": "2026-11-23T09:14:15-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-23T15:08:28.577Z",
- "zione_marcadores": 2,
+ "zione_marcadores": 3,
  "matches": [
   {
    "date": "2026-11-16",
@@ -2282,8 +2282,8 @@
    "time": "08:00",
    "a": "Cumbres International School Tijuana",
    "b": "Highlands International School Monterrey",
-   "sa": null,
-   "sb": null,
+   "sa": 7,
+   "sb": 0,
    "field": "Campo 26",
    "venue": "Andes"
   },
