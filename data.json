@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T08:58:18-06:00",
- "checked": "2026-11-23T08:58:18-06:00",
+ "updated": "2026-11-23T09:03:24-06:00",
+ "checked": "2026-11-23T09:03:24-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-23T14:54:32.394Z",
- "zione_marcadores": 2,
+ "zione_marcadores": 4,
  "matches": [
   {
    "date": "2026-11-16",
@@ -2210,8 +2210,8 @@
    "time": "07:00",
    "a": "Colegio Interamericano Irapuato",
    "b": "Irish International School Hermosillo",
-   "sa": null,
-   "sb": null,
+   "sa": 4,
+   "sb": 1,
    "field": "Campo 4",
    "venue": "Anáhuac"
   },
@@ -2234,8 +2234,8 @@
    "time": "07:00",
    "a": "Cumbres International School Tijuana",
    "b": "Colegio Interamericano Guadalajara",
-   "sa": null,
-   "sb": null,
+   "sa": 2,
+   "sb": 2,
    "field": "Campo 3",
    "venue": "Anáhuac"
   },
