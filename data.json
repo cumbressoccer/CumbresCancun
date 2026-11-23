@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T10:18:05-06:00",
- "checked": "2026-11-23T10:18:05-06:00",
+ "updated": "2026-11-23T10:23:11-06:00",
+ "checked": "2026-11-23T10:23:11-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-23T16:14:28.596Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 1,
  "matches": [
   {
    "date": "2026-11-16",
@@ -2378,8 +2378,8 @@
    "time": "09:00",
    "a": "Irish Institute México",
    "b": "Instituto Andes Culiacán",
-   "sa": null,
-   "sb": null,
+   "sa": 11,
+   "sb": 0,
    "field": "Cancha 15 FR",
    "venue": "Andes"
   },
