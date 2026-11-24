@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-24T14:46:17-06:00",
- "checked": "2026-11-24T14:46:17-06:00",
+ "updated": "2026-11-24T14:51:23-06:00",
+ "checked": "2026-11-24T14:51:23-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-24T20:30:29.783Z",
- "zione_marcadores": 1,
+ "zione_marcadores": 3,
  "matches": [
   {
    "date": "2026-11-16",
@@ -3086,8 +3086,8 @@
    "time": "13:00",
    "a": "Cumbres International School Tijuana",
    "b": "Colegio Everest Chihuahua",
-   "sa": null,
-   "sb": null,
+   "sa": 5,
+   "sb": 1,
    "field": "Campo Pista \"B\"",
    "venue": "Andes"
   },
