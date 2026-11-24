@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-24T09:40:42-06:00",
- "checked": "2026-11-24T09:40:42-06:00",
+ "updated": "2026-11-24T09:45:47-06:00",
+ "checked": "2026-11-24T09:45:47-06:00",
  "source": "https://tagers.com/torneo-de-la-amistad-puebla/?colegio=cumbres-international-school-cancun#horarios",
  "rol_leido": "2026-11-24T15:40:28.586Z",
- "zione_marcadores": 0,
+ "zione_marcadores": 2,
  "matches": [
   {
    "date": "2026-11-16",
@@ -501,8 +501,8 @@
    "rival": "Kilimanjaro International School Monterrey",
    "field": "Campo Pista \"A\"",
    "venue": "Andes",
-   "gf": null,
-   "ga": null,
+   "gf": 1,
+   "ga": 3,
    "phase": "Semifinal"
   }
  ],
@@ -2918,8 +2918,8 @@
    "time": "08:00",
    "a": "Kilimanjaro International School Monterrey",
    "b": "Cumbres International School Cancún",
-   "sa": null,
-   "sb": null,
+   "sa": 3,
+   "sb": 1,
    "field": "Campo Pista \"A\"",
    "venue": "Andes"
   },
@@ -2930,8 +2930,8 @@
    "time": "08:00",
    "a": "Cumbres International School Saltillo",
    "b": "Highlands International School San Salvador",
-   "sa": null,
-   "sb": null,
+   "sa": 4,
+   "sb": 1,
    "field": "Campo Pista \"B\"",
    "venue": "Andes"
   },
