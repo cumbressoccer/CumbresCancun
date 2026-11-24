@@ -36,9 +36,9 @@
   "Futbol 7 varonil 2012–2013|David G.": 3,
   "Futbol 7 varonil 2012–2013|Eduardo F.": 0,
   "Futbol 7 varonil 2012–2013|Franco David G.": 0,
-  "Futbol 7 varonil 2012–2013|Ian T.": 5,
+  "Futbol 7 varonil 2012–2013|Ian T.": 6,
   "Futbol 7 varonil 2012–2013|Iker C.": 0,
-  "Futbol 7 varonil 2012–2013|Jerónimo E.": 0,
+  "Futbol 7 varonil 2012–2013|Jerónimo E.": 1,
   "Futbol 7 varonil 2012–2013|Jimi Alexander L.": 1,
   "Futbol 7 varonil 2012–2013|Luis Hernán B.": 0,
   "Futbol 7 varonil 2012–2013|Santiago R.": 0,
@@ -310,6 +310,20 @@
    "cat": "Futbol 7 varonil 2012–2013",
    "player": "Ian T.",
    "n": 3
+  },
+  {
+   "date": "2026-11-23",
+   "time": "17:30",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "Ian T.",
+   "n": 1
+  },
+  {
+   "date": "2026-11-23",
+   "time": "17:30",
+   "cat": "Futbol 7 varonil 2012–2013",
+   "player": "Jerónimo E.",
+   "n": 1
   }
  ]
 }
